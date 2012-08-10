@@ -24,13 +24,13 @@
 	<script> 
 		FB.init({appId: "333378973415023", status: true, cookie: true});
 
-		function postToFeed(linkUrl, headline, description) {
+		function postToFeed(linkUrl, linkName, headline, description) {
 			// calling the API ...
 			var obj = {
 			  method: 'feed',
 			  link: 'http://navanbadmintonclub.com/'+linkUrl,
 			  picture: 'http://navanbadmintonclub.com/assets/img/98191_badminton_shuttlecock_on_rack.jpg',
-			  name: 'Navan Badminton Club',
+			  name: 'Navan Badminton Club - '+linkName,
 			  caption: ''+headline,
 			  description: ''+description
 			};
@@ -145,6 +145,7 @@
 						</a>
 						<a class="btn btn-mini" style="vertical-align: top"  onclick='postToFeed(
 						  	"#news10082012",
+							"12th August 2012",
 							"Meeting and preparation for 2012/2013 season.",
 							"First Meeting of the new season to discuss preparations for 2012/2013. More details on website"
 						   ); return false;'>
@@ -194,6 +195,7 @@
 						</a>
 						<a class="btn btn-mini" style="vertical-align: top"  onclick='postToFeed(
 						  	"#news13072012",
+							"13th July 2012",
 							"Some early details for next season",
 							"Season start dates and times, membership drive, and summer badminton"
 						   ); return false;'>
