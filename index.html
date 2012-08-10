@@ -18,6 +18,31 @@
   </head>
 
   <body>
+	<!-- Start Facebook Javascript Dialog -->
+	<div id='fb-root'></div>
+	<script src='http://connect.facebook.net/en_US/all.js'></script>
+	<script> 
+		FB.init({appId: "333378973415023", status: true, cookie: true});
+
+		function postToFeed(linkUrl, headline, description) {
+			// calling the API ...
+			var obj = {
+			  method: 'feed',
+			  link: 'http://navanbadmintonclub.com/'+linkUrl,
+			  picture: 'http://navanbadmintonclub.com/assets/img/98191_badminton_shuttlecock_on_rack.jpg',
+			  name: 'Navan Badminton Club',
+			  caption: ''+headline,
+			  description: ''+description
+			};
+
+			function callback(response) {
+				  //document.getElementById('msg').innerHTML = "Post ID: " + response['post_id'];
+			}
+
+			FB.ui(obj, callback);
+		}
+	</script>
+	<!-- End Facebook Javascript Dialog-->
 
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
@@ -34,6 +59,8 @@
         </div>
       </div>
     </div>
+
+    <p id='msg'></p>
 
     <div class="container-fluid">
       <div class="row-fluid">
@@ -128,6 +155,12 @@
 					   data-hashtags="navan,badminton,meath" 
 					   data-count="none">
 					Tweet
+					</a>
+					<a onclick='postToFeed(
+					  	"#news13072012",
+						"Some early details for next season",
+						"Some start dates and times, membership drive, summer badminton"
+					   ); return false;'>Post to Feed
 					</a>
 				    <!-- End News Posting -->
 				   </p>			
