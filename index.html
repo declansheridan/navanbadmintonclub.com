@@ -44,19 +44,23 @@
 	</script>
 	<!-- End Facebook Javascript Dialog-->
 
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="#">Navan Badminton Club</a>
-        </div>
-      </div>
-    </div>
-
+	<div class="navbar navbar-fixed-top">
+	  <div class="navbar-inner">
+		<div class="container">		  
+			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</a>		  
+			<a class="brand" href="./index.html" style="color: white;">Navan Badminton Club</a>
+			<ul class="nav">
+			  <li class="active"><a href="./index.html">Home</a></li>
+			  <li><a href="./contact.html">Contact us</a></li>
+			</ul>
+		</div>
+	  </div>
+	</div>
+	
     <p id='msg'></p>
 
     <div class="container-fluid">
@@ -135,10 +139,51 @@
 		  </div>		  
 		  <div class="row-fluid">
 				<!-- News Section -->
-				<div class="span8">
+				<div class="span8">				
 				    <h2>Club News</h2>
+					<!-- Start News Posting 23th August 2012 -->
+				    <a name="news23082012"></a>
+				    <h4>23th August 2012 - Kick Off for 2012/2013 nearly here.</h4>
+					<br>
+					<div class="row-fluid">
+					 <div class="span3">				
+				    <p>		
+					<a href="./assets/img/badmintonKickoff.jpg" class="thumbnail">
+						  <img src="./assets/img/badmintonKickoff.jpg" alt="">
+					</a>
+					 </div>
+					 <div class="span9">				
+					Just over a week to kick off for the new season. 
+					<br><br>
+					First Senior Club night Monday, 3rd September 2012 @ 8pm. 
+					<br>
+					New Members welcome! Pay as you play for September come along and give it a try.  
+					<br><br>
+					<span class="label label-info">Heads up!</span> Junior Badminton is not back until Monday, 17th September 2012 @ 7pm
+					<br><br>
+					</div>
+					</div>
+						<a href="https://twitter.com/share" 
+						   class="twitter-share-button" 
+						   style="vertical-align: top"
+						   data-url="http://navanbadmintonclub.com/#news23082012" 
+						   data-text="Kick Off for 2012/2013 nearly here." 
+						   data-via="NavanBC" 
+						   data-hashtags="navan,badminton,meath" 
+						   data-count="none">
+						Tweet
+						</a>
+						<a class="btn btn-mini" style="vertical-align: top"  onclick='postToFeed(
+						  	"#news23082012",
+							"23th August 2012",
+							"Kick Off for 2012/2013 nearly here.",
+							"First senior club night of 2012/2013 on Monday, 3rd September @ 8pm. More details on website"
+						   ); return false;'>
+						  <i class="icon-share"></i> <strong>Share on Facebook</strong>
+						</a>
+				    <!-- End News Posting 23th August 2012 -->
+				    <br><br>
 				    <!-- Start News Posting 10th August 2012 -->
-				    <br>
 				    <a name="news10082012"></a>
 				    <h4>10th August 2012 - Meeting and preparation for 2012/2013 season.</h4>
 				    <p>					
@@ -174,7 +219,7 @@
 						</a>
 				    <!-- End News Posting 10th August 2012 -->
 				    <!-- Start News Posting 13th July 2012 -->
-				    <br><br><br>
+				    <br><br>
 				    <a name="news13072012"></a>
 				    <h4>13th July 2012 - Some early details for next season 2012/2013.</h4>
 				    <p>					
@@ -247,35 +292,26 @@
 							</tr>							
 						</table>					
 						<h2>Contact</h2>
-						<a 	id="committeePopover" href="#" class="btn btn-info" rel="popover">
-							View Committee Details
-						</a>
-						<br><br>
-						<address>
+						<p>						
+							<a id="committeePopover" href="./contact.html" class="btn btn-info" rel="popover">
+								<i class="icon-briefcase"></i> View Committee Details
+							</a>
+							<br><br>
 							<strong>Email:</strong><br>
 							<a href="mailto:badminton@navanbadmintonclub.com">badminton@navanbadmintonclub.com</a>
-						</address>
-						<p>
+							<br><br>
 							<strong>Address:</strong>
-							<br>Claremont Stadium, 
-							<br>Commons Road, 
-							<br>Navan, 
-							<br>Co. Meath 
-							<br><br> 
+							<address>
+									Claremont Stadium, 
+								<br>Commons Road, 
+								<br>Navan, 
+								<br>Co. Meath 
+								<br>
+							</address>					
+							<a href="./contact.html" class="btn btn-info">
+								<i class="icon-map-marker"></i> View Map / Directions
+							</a>
 						</p>
-						<p>
-							<strong>Map / Directions:</strong>
-							<br> 
-						</p>
-						<!-- Start Google maps embed iframe -->						
-						<iframe width="350" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
-								src="http://maps.google.ie/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Claremont+Stadium,+Commons+Road,+Navan&amp;aq=0&amp;oq=claremont+stadium&amp;sll=53.3834,-8.21775&amp;sspn=8.31492,26.784668&amp;ie=UTF8&amp;hq=&amp;hnear=Claremont+Stadium,+Commons+Rd,+Navan,+County+Meath&amp;t=m&amp;ll=53.648657,-6.694794&amp;spn=0.017806,0.036478&amp;z=14&amp;iwloc=A&amp;output=embed">
-						</iframe>
-						<br/>
-						<small>
-							<a href="http://maps.google.ie/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Claremont+Stadium,+Commons+Road,+Navan&amp;aq=0&amp;oq=claremont+stadium&amp;sll=53.3834,-8.21775&amp;sspn=8.31492,26.784668&amp;ie=UTF8&amp;hq=&amp;hnear=Claremont+Stadium,+Commons+Rd,+Navan,+County+Meath&amp;t=m&amp;ll=53.648657,-6.694794&amp;spn=0.017806,0.036478&amp;z=14&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a>						
-						</small>
-						<!-- End Google maps embed iframe -->												
 					</div><!--/.sidebar -->
 				</div><!--/span-->
 		  </div><!--/row-->
