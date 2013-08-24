@@ -2,16 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Welcome to Navan Badminton Club's website</title>
+    <title>Navan Badminton Club - News</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Navan Badminton Club">    
     <link href="./assets/css/bootstrap.css" rel="stylesheet">
+    <link href="./assets/css/countdown.css" rel="stylesheet">	
     <style type="text/css">
-      body {
-        padding-top: 50px;
-        padding-bottom: 10px;
-      }	  
-    </style>	
+		body {
+			padding-top: 50px;
+			padding-bottom: 10px;
+		}	  
+		.postlink {
+			font-size: 14px;
+			line-height: 36px;	
+			margin: 0;
+			font-family: inherit;
+			font-weight: bold;
+			color: inherit;
+			text-rendering: optimizelegibility;		
+		}
+	</style>	
     <link href="./assets/css/bootstrap-responsive.css" rel="stylesheet">
     <link rel="shortcut icon" href="./assets/ico/favicon.ico">
     <script src="http://widgets.twimg.com/j/2/widget.js"></script>	
@@ -41,9 +51,7 @@
 
 			FB.ui(obj, callback);
 		}
-	</script>
-	<!-- End Facebook Javascript Dialog-->
-
+	</script>  
 	<div class="navbar navbar-fixed-top">
 	  <div class="navbar-inner">
 		<div class="container">		  
@@ -54,19 +62,17 @@
 			</a>		  
 			<a class="brand" href="./index.html" style="color: white;">Navan Badminton Club</a>
 			<ul class="nav">
-			  <li class="active"><a href="./index.html">Home</a></li>
-			  <li><a href="./teams.html">Teams</a></li>			  
-			  <li><a href="./fixtures.html">Fixtures / Results</a></li>			  			  
-			  <li><a href="./links.html">Links / Downloads</a></li>
-			  <li><a href="./gallery.html">Gallery</a></li>			  
-			  <li><a href="./juvenile.html">Juvenile</a></li>
-			  <li><a href="./contact.html">Contact us</a></li>
+			  <li id="Home"><a href="./index.html">Home</a></li>
+			  <li id="Teams"><a href="./teams.html">Teams</a></li>
+			  <li id="Fixtures"><a href="./fixtures.html">Fixtures / Results</a></li>
+			  <li id="Links"><a href="./links.html">Links / Downloads</a></li>
+			  <li id="Gallery"><a href="./gallery.html">Gallery</a></li>
+			  <li id="Juvenile"><a href="./juvenile.html">Juvenile</a></li>			  
+			  <li id="Contact"><a href="./contact.html">Contact us</a></li>
 			</ul>
 		</div>
 	  </div>
 	</div>
-	
-    <p id='msg'></p>
 
     <div class="container-fluid">
       <div class="row-fluid">
@@ -101,739 +107,861 @@
 			<a class="twitter-timeline"  href="https://twitter.com/NavanBC"  data-widget-id="358182560163061760">Tweets by @NavanBC</a>
 			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 			<!-- Twitter Badge END -->
-			<br>
+			<br>			
           </div><!--/.well -->
         </div><!--/span-->
-		<a name="news13072013"></a>
-        <div class="span9">
-		  <div class="hero-unit" style="padding: 25px;">
-			<h1>Navan Badminton Club</h1>
-			<p>
-			   Welcome to Navan Badminton Club located in Navan, Co. Meath. 
-			   It holds its club night every Monday and Wednesday during the season which runs from September to April. 
-			   Caters for Adults and Juveniles of all standards from beginner to advanced.			   
-		  	   <div class="row-fluid">
-				<div class="span7">				
-					<img src="./assets/img/logo.jpg" alt="">
-				</div>				
-				<div class="span5" style="text-align: right">				
-					<a href="http://www.facebook.com/navan.bc">
-						<img src="./assets/img/facebook.jpg"/>			
-					</a>						
-					<a href="https://twitter.com/NavanBC">
-						<img src="./assets/img/twitter.jpg"/>			
-					</a>
-				</div>				
-			   </div>
-			</p>
-		  </div>		  
-		  <div class="row-fluid">
+        <div class="span9">		
+			<!-- Start Content Section -->
+                			<a name="news13072013"></a>
+			<div class="row-fluid">
+				<div class="span12">
+				  <div class="hero-unit" style="padding: 25px;">
+					<h1>Navan Badminton Club</h1>
+					<p>
+					   Welcome to Navan Badminton Club located in Navan, Co. Meath. 
+					   It holds its club night every Monday and Wednesday during the season which runs from September to April. 
+					   Caters for Adults and Juveniles of all standards from beginner to advanced.			   
+					   <div class="row-fluid">
+						<div class="span7">				
+							<img src="./assets/img/logo.jpg" alt="">
+						</div>				
+						<div class="span5" style="text-align: right">				
+							<a href="http://www.facebook.com/navan.bc">
+								<img src="./assets/img/facebook.jpg"/>			
+							</a>						
+							<a href="https://twitter.com/NavanBC">
+								<img src="./assets/img/twitter.jpg"/>			
+							</a>
+						</div>				
+					   </div>
+					</p>
+				  </div>
+			  </div>
+			</div>  
+		  <div class="row-fluid">		  
 				<!-- News Section -->
 				<div class="span8">
-				    <h2>Club News</h2>
-					<!-- Start News Posting 13th July 2013 -->
-				    <h4>13th July 2013 - AGM and 600 Club Draw held, Season review, Preparation for 2013/2014 season.</h4>
-					<br>
-					<div class="row-fluid">
-						<div class="span12">
-						AGM - The Club AGM was held on 21st June followed by the 600 draw (list of winnners below) and night out. Great turnout from members for the AGM followed up by a great night out celebrating the successful season.
-						Plans are under way for the 2013/2014 season kicking off <b>Monday 2nd September 2013</b> keep an eye on the website for more details.
-						<br><br>													  	  
-						We also bid a fond farewell to Katharina Schulte who has been with us since September 2012 and played a great season of badminton with our Ladies Grade 5 team. 
-						Good Luck to Kathi as she returns home to continue her studies.	  
-						<br><br>													  	  	  
-						Battle of Boyne Tournament Winners - Well done to the winners from the club
-							<ul>
-								<li>Grade 6 Ladies - Bernie Shankey &amp; Bernie O'Reilly</li>
-								<li>Grade 7 Mixed  - Bernie O'Reilly &amp; Brian Keville</li>
-								<li>Grade 7 Mens   - Daniel Byrne &amp; Brian Keville</li>
-							</ul>															
-						Season Review - the 2012/2013 season in numbers below. Well done to all for making it an enjoyable year.
-						<br><br>
-						<a href="./assets/img/2012/2012Info.jpg" class="thumbnail">
-							  <img src="./assets/img/2012/2012Info.jpg" alt="">
-						</a>							
+					<div align="center">
+						<h2>New season kicks off in ... </h2>					
 						<br>
-						Club 600 Draw Winners - Congrats to all the winners in the draw and thanks to everyone who took the time to sell lines!
-						<br><br>
-						<table class="table table-bordered">
-							<tr>
-								<td>
-								<strong>Name</strong>
-								</td>
-								<td>
-								<strong>Line No.</strong>
-								</td>
-								<td>
-								<strong>Prize</strong>
-								</td>								
-							</tr>
-							<tr>
-								<td>Celine Cully</td><td>182</td><td>200 Euro</td>
-							</tr>
-							<tr>
-								<td>Declan Sheridan</td><td>463</td><td>100 Euro</td>
-							</tr>
-							<tr>
-								<td>Colm Buchanan</td><td>495</td><td>50 Euro</td>
-							</tr>							
-							<tr>
-								<td>Austin Denneny</td><td>86</td><td>50 Euro</td>
-							</tr>							
-							<tr>
-								<td>Mairin Ni Loideain</td><td>222</td><td>Spot Prize</td>
-							</tr>							
-							<tr>
-								<td>Joanne Healy</td><td>116</td><td>Spot Prize</td>
-							</tr>							
-							<tr>
-								<td>Victoria McElwaine</td><td>154</td><td>Spot Prize</td>
-							</tr>							
-							<tr>
-								<td>Eva Boyle</td><td>23</td><td>Spot Prize</td>
-							</tr>							
-							<tr>
-								<td>Eamon Dunphy</td><td>429</td><td>Spot Prize</td>
-							</tr>														
-						</table>			
-						</div>
+						<ul id="countdown">
+							<li>
+								<span class="days">00</span>
+								<p class="timeRefDays">days</p>
+							</li>
+							<li>
+								<span class="hours">00</span>
+								<p class="timeRefHours">hours</p>
+							</li>
+							<li>
+								<span class="minutes">00</span>
+								<p class="timeRefMinutes">minutes</p>
+							</li>
+							<li>
+								<span class="seconds">00</span>
+								<p class="timeRefSeconds">seconds</p>
+							</li>
+						</ul>				
+						<h2> ... on Monday 2nd September @ 8:30pm</h2>											
 					</div>
-						<a href="https://twitter.com/share" 
-						   class="twitter-share-button" 
-						   style="vertical-align: top"
-						   data-url="http://navanbadmintonclub.com/#news13072013" 
-						   data-text="Club 600 Draw Winners, Season Reivew, Plans for 2013/2014" 
-						   data-via="NavanBC" 
-						   data-hashtags="navan,badminton,meath" 
-						   data-count="none">
-						Tweet
-						</a>
-						<a class="btn btn-mini" style="vertical-align: top"  onclick='postToFeed(
-						  	"#news13072013",
-							"13th July 2013",
-							"Club 600 Draw Winners, Season Reivew, Plans for 2013/2014",
-							"More info on website "
-						   ); return false;'>
-						  <i class="icon-share"></i> <strong>Share on Facebook</strong>
-						</a>
-				    <!-- End News Posting 13th July 2013 -->					
-				    <br><br>	
-					<a name="news02062013"></a>
-					<!-- Start News Posting 2nd June 2013 -->
-				    <h4>2nd June 2013 - AGM / 600 Draw / Night Out, Juvenile Season Report, MBA Dinner Dance, and Boyne Open</h4>
 					<br>
-					<div class="row-fluid">
-						<div class="span12">
-						AGM - a provisional date of Friday the 21st June has been set. The plan is to have the AGM @ 7:30pm followed by a night out and the 600 Club draw. 
-						The venue to be confirmed all members are encouraged to attend to give there input into the plans for next season. 
-						<br><br>						
-						Juvenile's - End of season report from the juveniles can be found in the <a href="./juvenile.html">juvenile section</a> great to see so many invloved. Thanks to Esther and Martin for all there great work during the 
-						season with all the kids.
-						<br><br>
-						MBA Awards Night - large attendence at the MBA Awards night great night out with plenty of awards given out. Special mention to our own Joe Arnold 
-						who was awarded a special merit award for his many years commitment to badminton in Meath. Some photos of the night added in the <a href="./gallery.html">gallery.</a>
-						<br><br>
-						Battle of Boyne Open - Boyne Badminton Club are holding a graded open from the 4th - 15th June. More details <a href="https://sites.google.com/a/irishbadminton.com/boyne-badminton-club/battle-of-the-boyne">here</a> a number of members are already 
-						heading over contact Dermot for more info.
-						<br><br>						
-						</div>
-					</div>
-						<a href="https://twitter.com/share" 
-						   class="twitter-share-button" 
-						   style="vertical-align: top"
-						   data-url="http://navanbadmintonclub.com/#news02062013" 
-						   data-text="AGM / 600 Draw / Night Out, Juvenile's Report, MBA Awards Night, and Boyne Open" 
-						   data-via="NavanBC" 
-						   data-hashtags="navan,badminton,meath" 
-						   data-count="none">
-						Tweet
-						</a>
-						<a class="btn btn-mini" style="vertical-align: top"  onclick='postToFeed(
-						  	"#news02062013",
-							"2nd June 2013",
-							"AGM / 600 Draw / Night Out, Juvenile Season Report, MBA Dinner Dance, and Boyne Open",
-							"More info on website "
-						   ); return false;'>
-						  <i class="icon-share"></i> <strong>Share on Facebook</strong>
-						</a>
-				    <!-- End News Posting 2nd June 2013 -->					
-				    <br><br>
-					<a name="news03052013"></a>										
-					<!-- Start News Posting 3rd May 2013 -->
-				    <h4>3rd May 2013 - Season finished, Well done to all members on a great year.</h4>
-					<br>
-					<div class="row-fluid">
-						<div class="span12">
-						Season finished - After a long season the clubs final badminton action came on Wednesday the 1st May. Although our club nights finished in mid April there was still
-						plenty of badminton left to be played thanks to the success of many of the teams on reaching and finals and playoffs. Some great results:						
-						<br><br>
-						<ul>
-							<li>Senior Men - Meath League Winners and Meath Cup runners up</li>
-							<li>Grade 5 Ladies - Meath League Runners Up</li>
-							<li>Grade 6 Ladies - Meath Cup Winners</li>
-							<li>Grade 6 Men - Meath Cup Runners Up</li>
-							<li>Grade 7 Ladies - Meath Cup Runners Up</li>							
-							<li>Grade 7 Mixed - Meath League Runners Up and Meath Cup Winners</li>														
-						</ul>															
-						Juvenile Section - well done to all the juvenile members on a great years badminton some great talent. 
-						<br><br>
-						Gallery - a photo gallery with some photos capturing the season has been added to the website can be viewed <a href="./gallery.html">here</a>
-						<br><br>
-						MBA Presentation Night - Reminder that the MBA dinner dance is on Firday the 10th of May. Good few members heading down tickets 25 Euro let Dermot know if interested.
-						<br><br>
-						End of Season night out / 600 Draw - no date set yet but watch this space for more info. 
-						<br><br>						
-						</div>
-					</div>
-						<a href="https://twitter.com/share" 
-						   class="twitter-share-button" 
-						   style="vertical-align: top"
-						   data-url="http://navanbadmintonclub.com/#news03052013" 
-						   data-text="Season finished, Well done to all members on a great year." 
-						   data-via="NavanBC" 
-						   data-hashtags="navan,badminton,meath" 
-						   data-count="none">
-						Tweet
-						</a>
-						<a class="btn btn-mini" style="vertical-align: top"  onclick='postToFeed(
-						  	"#news03052013",
-							"3rd May 2013",
-							"Season finished, Well done to all members on a great year.",
-							"More info on website "
-						   ); return false;'>
-						  <i class="icon-share"></i> <strong>Share on Facebook</strong>
-						</a>
-				    <!-- End News Posting 3rd May 2013 -->					
-				    <br><br>									
-					<a name="news31032013"></a>					
-					<!-- Start News Posting 31st March 2013 -->
-				    <h4>31st March 2013 - End of Season, Night out, Club draw</h4>
-					<br>
-					<div class="row-fluid">
-						<div class="span12">
-							<span class="label label-info">Alert!</span> No Badminton on Easter Monday (1st April). Back on Wednesday (3rd April) 
-						<br><br>						
-						End of season - The last night of badminton for the season will be Monday, April 22nd in Claremont. There are still a number of teams
-						in contention in the League finals and Cup competitions. Our grade 7 Mixed team were unlucky to narrowly lose out to Kilmessan in the League final
-						after drawing on the night they lost out on a count back of games! 	
-						<br><br>
-						Night out - after the long season an end of season night out is to be organised. Date not final yet all suggestions and idea's welcome. We'll get the
-						details published out nearer the time. On the same note Meath Badminton have the annual presentation night on Friday the 10th of May on in the Headfort Arms, Kells.
-						<br><br>
-						Club 600 Draw - Final preparations are under way for the draw which will take place before the end of season. Still a few lines left so if you haven't 
-						had your chance to sell any lines. Let Darragh or Dermot know.
-						<br><br>
-						</div>
-					</div>
-						<a href="https://twitter.com/share" 
-						   class="twitter-share-button" 
-						   style="vertical-align: top"
-						   data-url="http://navanbadmintonclub.com/#news31032013" 
-						   data-text="End of Season, Night out, Club draw" 
-						   data-via="NavanBC" 
-						   data-hashtags="navan,badminton,meath" 
-						   data-count="none">
-						Tweet
-						</a>
-						<a class="btn btn-mini" style="vertical-align: top"  onclick='postToFeed(
-						  	"#news31032013",
-							"31st March 2013",
-							"End of Season, Night out, Club draw",
-							"More info on website "
-						   ); return false;'>
-						  <i class="icon-share"></i> <strong>Share on Facebook</strong>
-						</a>
-				    <!-- End News Posting 31st March 2013 -->					
-				    <br><br>									
-					<a name="news10032013"></a>					
-					<!-- Start News Posting 10th March 2013 -->
-				    <h4>10th March 2013 - Fixtures Cup update, Meath Championships 2013</h4>
-					<br>
-					<div class="row-fluid">
-						<div class="span12">
-							<span class="label label-info">Note!</span> No Badminton on Monday (18th March) as its a Bank Holiday. Back on Wednesday (20th March) 
-						<br><br>						
-						Fixtures - As we reach the business end of the season we have the usual end of season fixture congestion with plenty of badminton
-						still to be played. Most teams still have a fighting chance of making the league play offs. And for others the Cup offers another bite 
-						of the apple. Fixtures have been <a href="./fixtures.html">updated</a> with the cup updates, and Meath Badminton have published on the League and Cups finals schedule 
-						can be found <a href="http://meathbadminton.webs.com/League%20Dates%202013.pdf">here</a> and <a href="http://meathbadminton.webs.com/Cup%20Dates%202013.pdf">here</a>. 
-						<br><br>						
-						Meath Championships 2013 - Great badminton over the last few weeks in the championships great to see such a large turnout. Well done to
-						Meath Badminton for putting on a great event and to our own Matthew Duffy for his part in helping to organise it. Some great results for the club
-						with:
-						<br><br>
-						<ul>
-							<li>Paul Ennis (Navan) and Lynn Boylan - Senior Mixed - Winners</li>
-							<li>Madge Boyle (Navan) and Stephen Murray - Grade 5 Mixed - Winners</li>
-							<li>Joe Arnold and Declan Sheridan - Grade 6 Men - Winners</li>
-							<li>Nadine Byrne and Declan Sheridan - Grade 7 Mixed - Winners </li>
-						</ul>									
-						<ul>
-							<li>Paul Ennis - Senior Mens Singles - Runner up</li>
-							<li>Matthew Duffy and Paul Ennis - Senior Mens - Runners up</li>
-							<li>Madge Boyle - Grade 5 Ladies - Runner up</li>
-							<li>Brian Dunphy and Declan Sheridan - Grade 7 Mens - Runners up</li>
-						</ul>
-						</div>
-					</div>
-						<a href="https://twitter.com/share" 
-						   class="twitter-share-button" 
-						   style="vertical-align: top"
-						   data-url="http://navanbadmintonclub.com/#news10032013" 
-						   data-text="More Fixtures updates, Meath Championships 2013" 
-						   data-via="NavanBC" 
-						   data-hashtags="navan,badminton,meath" 
-						   data-count="none">
-						Tweet
-						</a>
-						<a class="btn btn-mini" style="vertical-align: top"  onclick='postToFeed(
-						  	"#news10032013",
-							"10th March 2013",
-							"More Fixtures updates, Meath Championships 2013",
-							"More info on website "
-						   ); return false;'>
-						  <i class="icon-share"></i> <strong>Share on Facebook</strong>
-						</a>
-				    <!-- End News Posting 10th March 2013 -->					
-				    <br><br>									
-					<a name="news26012012"></a>
-					<!-- Start News Posting 26th January 2013 -->
-				    <h4>26th January 2013 - Fixtures update, Meath Championships 2013, Meath Chronicle</h4>
-					<br>
-					<div class="row-fluid">
-						<div class="span12">
-						Fixtures - The fixtures have been updated after some matches were cancelled and re-arranged. 
-						Also the draws for the cup competitions have been made, Joe is looking to set the fixtures so they will be available soon.  
-						Meath Badminton have the latest league tables updated they can be found <a href="http://meathbadminton.webs.com/leagueresults.htm">here</a>
-						(links also available from the <a href="./fixtures.html">fixtures page</a>)
-						In general most teams have had a good run of results since xmas let's hope we can keep it going!!						
-						<br><br>
-						Meath Championships 2013 - reminder the championships are coming up in Feb with a number of nights on in Claremont. If you haven't already
-						got your entry in let Dermot or Matthew know. 
-						<br><br>
-						600 Draw - the 600 draw continues if you haven't had your opportunity to sell some lines yet :) let Darragh or Dermot know.
-						<br><br>						
-						Meath Chronicle - finally the Meath Chronicle were up last Wednesday and took some photos should be in the next edition. Online article also <a href="http://www.meathchronicle.ie/sport/othersport/articles/2013/01/23/4014083-meath-badminton-action-/">here</a>
-						with some live action also available on YouTube see below. 
-						<br><br>						
-						New Members - We may be mid season but if your interested and want to give badminton a try your welcome to come on the club nights and try it out as pay as you go.
-						<br><br>												
-						</div>
-					</div>
-						<a href="https://twitter.com/share" 
-						   class="twitter-share-button" 
-						   style="vertical-align: top"
-						   data-url="http://navanbadmintonclub.com/#news26012013" 
-						   data-text="Fixtures update, Meath Championships 2013, Meath Chronicle" 
-						   data-via="NavanBC" 
-						   data-hashtags="navan,badminton,meath" 
-						   data-count="none">
-						Tweet
-						</a>
-						<a class="btn btn-mini" style="vertical-align: top"  onclick='postToFeed(
-						  	"#news26012013",
-							"26th January 2013",
-							"Fixtures update, Meath Championships 2013, Meath Chronicle",
-							"More info on website "
-						   ); return false;'>
-						  <i class="icon-share"></i> <strong>Share on Facebook</strong>
-						</a>
-				    <!-- End News Posting 26th January 2013 -->					
-				    <br><br>					
-					<a name="news19122012"></a>					
-					<!-- Start News Posting 19th December 2012 -->
-				    <h4>19th December 2012 - Christmas drinks/break, Meath Championships 2013</h4>
-					<br>
-					<div class="row-fluid">
-					 <div class="span3">				
-						<p>		
-						<a href="./assets/img/santa.jpg" class="thumbnail">
-							  <img src="./assets/img/santa.jpg" alt="">
-						</a>											
-					</div>
-					<div class="span9">				
-						Christmas Drinks - Are on this Sunday, 23rd December. In Ryans Bar on Trimgate Street. Kick off @ 8:30pm Finger Food ordered. And like a Christmas Carol all are welcome present and past members. 
-						<br><br>						
-						Christmas Break - The last club night of 2012 was last Monday 17th of December. We'll be back early in January on Wednesday 2nd. 
-						Nice to finish the year on a high with a number of good results for most of the teams over the last two weeks with wins for the Senior Mens, Grade 5 Ladies, Grade 6 Mens &amp; Mixed, and Grade 7 Ladies lets hope we can keep the run going into 2013!!!
-						<br><br>
-					</div>
-					</div>
-					<div class="row-fluid">
-						<div class="span12">
-						Meath Championships 2013 - Dates have been announced for the Meath championships. Some of the matches to be held in Navan so no excuses not to get involved all grades catered for. More details <a href="http://meathbadminton.webs.com/MEATH%20CHAMPIONSHIPS%202013.pdf">here</a>
-						<br><br>
-						Finally Happy Christmas and New Year to everyone!!
-						<br><br>						
-						</div>
-					</div>
-						<a href="https://twitter.com/share" 
-						   class="twitter-share-button" 
-						   style="vertical-align: top"
-						   data-url="http://navanbadmintonclub.com/#news19122012" 
-						   data-text="Christmas drinks/break, Meath Championships 2013" 
-						   data-via="NavanBC" 
-						   data-hashtags="navan,badminton,meath" 
-						   data-count="none">
-						Tweet
-						</a>
-						<a class="btn btn-mini" style="vertical-align: top"  onclick='postToFeed(
-						  	"#news19122012",
-							"19th December 2012",
-							"Christmas drinks/break, Meath Championships 2013",
-							"More info on website "
-						   ); return false;'>
-						  <i class="icon-share"></i> <strong>Share on Facebook</strong>
-						</a>
-				    <!-- End News Posting 19th December 2012 -->					
-				    <br><br>					
-					<a name="news06112012"></a>
-					<!-- Start News Posting 2nd December 2012 -->
-				    <h4>2nd December 2012 - Xmas Holidays, Xmas drinks, Results online</h4>
-					<br>
-					<div class="row-fluid">
-						<div class="span12">
-						Christmas Holidays - Our last club night is Monday 17th of December, we will return on Wednesday 2nd January 2013.
-						<br><br>
-						Christmas Night Out is on Sunday the 23rd of December. Plan is to head out together for a few drinks and some finger food in town, venue to be decided!!
-						<br><br>
-						A busy night tomorrow Monday the 3rd of December will see 3 home matches in Claremont.  1 court will still be available for play!
-						<br><br>
-						Results have been added to the fixtures section on the website <a href="./fixtures.html">here</a> 
-						<br><br>
-						The Club '600' Draw is in full swing, keep an eye out for the card and bag everyone will get a turn to sell a few lines!
-						<br><br>
-						The <a href="http://www.badmintonireland.com/news/68217/Irish-Open-draws-bumper-entry">Irish Badminton Open</a>, 6th to 9th December 2012 at Baldoyle Badminton Centre. Tickets available some great badminton to watch
-						<br><br>						
-						There is a Christmas Bonanza Graded Tournament being held at Baldoyle Badminton Centre December 29th and 30th 2012 (entries due by 14th Dec) 
-						<br><br>
-						Outstanding subscriptions can be paid to Elaine Collins or to Martin/Dermot. Various arrangements/options on how to pay available.
-						<br><br>						
-						</div>
-					</div>					
-						<a href="https://twitter.com/share" 
-						   class="twitter-share-button" 
-						   style="vertical-align: top"
-						   data-url="http://navanbadmintonclub.com/#news02122012" 
-						   data-text="Xmas Holidays, Xmas drinks, Results online" 
-						   data-via="NavanBC" 
-						   data-hashtags="navan,badminton,meath" 
-						   data-count="none">
-						Tweet
-						</a>
-						<a class="btn btn-mini" style="vertical-align: top"  onclick='postToFeed(
-						  	"#news02122012",
-							"2nd December 2012",
-							"Xmas Holidays, Xmas drinks, Results online",
-							"More info on website "
-						   ); return false;'>
-						  <i class="icon-share"></i> <strong>Share on Facebook</strong>
-						</a>
-				    <!-- End News Posting 2nd December 2012 -->					
-				    <br><br>					
-					<!-- Start News Posting 6th November 2012 -->
-					<a name="news06112012"></a>					
-				    <h4>6th November 2012 - Irish A Grade 2012 Winners, Fixtures published.</h4>
-					<br>
-					<div class="row-fluid">
-						<div class="span12">
-						<span class="label label-info">Great News!</span> Well done to Colm and Matthew on winning the men's doubles @ the Irish A Grade 2012 tournament !! over the weekend in Dublin. In what was a competitive field 
-						and a number of close games the guys managed to win. Full report available on Badminton Ireland <a href="http://www.badmintonireland.com/news/67971/Irish-A-Grade-2012">here</a>
-						<br><br>
-						All fixtures have now been set, they have been published on the website. Find a link above and <a href="./fixtures.html">here</a>. Thanks to Joe for all the work in getting them organised. 
-						<br><br>
-						Teams are already in full swing with the Grade 6 Mixed narrowly losing out in close games to Ardee last Friday away. And a great win by the Senior Men's team last night at home to Stamullen 4-0. 
-						<br><br>
-						Reminder subscriptions can be paid to Elaine Collins or to Martin/Dermot. Various options of how to pay available 
-						<br><br>
-						</div>
-					</div>					
-						<a href="https://twitter.com/share" 
-						   class="twitter-share-button" 
-						   style="vertical-align: top"
-						   data-url="http://navanbadmintonclub.com/#news06112012" 
-						   data-text="Irish A Grade 2012 Winners, Fixtures published." 
-						   data-via="NavanBC" 
-						   data-hashtags="navan,badminton,meath" 
-						   data-count="none">
-						Tweet
-						</a>
-						<a class="btn btn-mini" style="vertical-align: top"  onclick='postToFeed(
-						  	"#news06112012",
-							"6th November 2012",
-							"Irish A Grade 2012 Winners, Fixtures published.",
-							"More info on website "
-						   ); return false;'>
-						  <i class="icon-share"></i> <strong>Share on Facebook</strong>
-						</a>
-				    <!-- End News Posting 6th November 2012 -->					
-				    <br><br>					
-					<a name="news25102012"></a>
-					<!-- Start News Posting 25th October 2012 -->
-				    <h4>25th October 2012 - Team details, Club draw</h4>
-					<br>
-					<div class="row-fluid">
-						<div class="span12">
-						<span class="label label-info">Heads up!</span> No Badminton this Monday as its a Bank Holiday (29th Oct) back on Wednesday (31st Oct) 
-						<br><br>
-						The club teams for the different leagues for the season ahead <a href="./teams.html">can be found here.</a> 
-						<br><br>
-						The fixtures are to follow Joe is hard @ work pulling them together. They will be published once all confirmed. 
-						Best of luck to all !!!
-						<br><br>
-						600 Club Draw - thanks to Daragh for getting the draw organised. Details are as follows:
-						<br><br>
-						Tickets from 0.01 Cent to 6.00 Euro. The number you pull is how much your ticket will cost. i.e. number 23 = 23 cent, number 243 = 2 Euro 43 Cent etc.
-						<br><br>
-						Prizes:
-						<ul>
-							<li>1st 200.00 Euro</li>
-							<li>2nd 100.00 Euro</li>
-							<li>3rd  50.00 Euro</li>
-							<li>4th  50.00 Euro</li>
-							<li>plus loads of spot prizes</li>
-						</ul>						
-						Each Club Member will get a chance to sell some lines!!
-						<br><br>
-						Gentle reminder subscriptions can be paid to Elaine Collins or to Martin/Dermot.
-						<br><br>
-						</div>
-					</div>					
-						<a href="https://twitter.com/share" 
-						   class="twitter-share-button" 
-						   style="vertical-align: top"
-						   data-url="http://navanbadmintonclub.com/#news25102012" 
-						   data-text="Team details, Club draw" 
-						   data-via="NavanBC" 
-						   data-hashtags="navan,badminton,meath" 
-						   data-count="none">
-						Tweet
-						</a>
-						<a class="btn btn-mini" style="vertical-align: top"  onclick='postToFeed(
-						  	"#news25102012",
-							"25th October 2012",
-							"Team details, Club draw",
-							"More info on website "
-						   ); return false;'>
-						  <i class="icon-share"></i> <strong>Share on Facebook</strong>
-						</a>
-				    <!-- End News Posting 25th October 2012 -->					
-				    <br><br>
-					<a name="news14102012"></a>					
-					<!-- Start News Posting 14th October 2012 -->
-				    <h4>14th October 2012 - League entry deadlines, Leinster Ladders, Fundraising</h4>
-					<br>
-					<div class="row-fluid">
-						<div class="span12">				
-						Meath league entry deadline is fast approaching so if you haven't already expressed an interest to be on a team let Dermot know. Fixtures meeting for Dublin league soon.  
-						<br><br>
-						Leinster Badminton have launched the Leinster Ladders free to enter. <a href="http://www.leinsterbadminton.com/LeinsterLadders/tabid/910/language/en-US/Default.aspx">Click here for more details</a> 							<br><br>
-						Fundraising - Just to get it on the radar for people the 600 draw will be coming soon. More details closer to launch date.
-						<br><br>
-						New Members welcome! Great to see some new faces already. Come along and try a few nights pay as you play before deciding to commit to full membership. 					
-						<br><br>
-						</div>
-					</div>					
-						<a href="https://twitter.com/share" 
-						   class="twitter-share-button" 
-						   style="vertical-align: top"
-						   data-url="http://navanbadmintonclub.com/#news14102012" 
-						   data-text="League entry deadlines, Leinster ladders, Fundraising" 
-						   data-via="NavanBC" 
-						   data-hashtags="navan,badminton,meath" 
-						   data-count="none">
-						Tweet
-						</a>
-						<a class="btn btn-mini" style="vertical-align: top"  onclick='postToFeed(
-						  	"#news14102012",
-							"14th October 2012",
-							"League entry deadlines, Leinster ladders, Fundraising",
-							"More info on website "
-						   ); return false;'>
-						  <i class="icon-share"></i> <strong>Share on Facebook</strong>
-						</a>
-				    <!-- End News Posting 14th October 2012 -->					
-				    <br><br>
-					<!-- Start News Posting 15th September 2012 -->
-				    <a name="news15092012"></a>					
-				    <h4>15th September 2012 - Club back full time this week</h4>
-					<br>
-					<div class="row-fluid">
-					 <div class="span3">				
-				    <p>		
-					<a href="./assets/img/logo.jpg" class="thumbnail">
-						  <img src="./assets/img/logo.jpg" alt="">
-					</a>
-					 </div>
-					<div class="span9">				
-					The new season swings into full time this week with the the club back to two nights on Monday 17th September (8:30pm) and Wednesday 19th September (8pm). 
-					<br><br>					
-					Also the juvenile's are back on Monday 17th September @ 7pm. More details contact Esther (086) 1663248
-					<br><br>					
-					</div>
-					</div>
-					<div class="row-fluid">
-						<div class="span12">				
-						Dublin League Secretaries Meeting took place on Thursday 6th Sep - Martin in attendence, gradings published for next year, some minor rule changes, deadline for team entries Friday 28th September. More info available from Martin.  
-						<br><br>
-						Entries are now welcome for the Leinster Badminton “Oktoberfest” Graded Tournament which takes place Saturday 29th September 2012 and Sunday 30th September 2012. <a href="http://www.tournamentsoftware.com/sport/tournament.aspx?id=7A799AAE-CFB1-4C8D-81F3-7958EB6F2EA2">Click here for more details</a> 					
-						<br><br>
-						History of the club - call to all past and current members if they have any old photos etc about the club can they let Dermot or email through as were looking to pull together something.  
-						<br><br>
-						New Members welcome! pay as you play for September come along and give it a try.  					
-						<br><br>
-						</div>
-					</div>					
-						<a href="https://twitter.com/share" 
-						   class="twitter-share-button" 
-						   style="vertical-align: top"
-						   data-url="http://navanbadmintonclub.com/#news15092012" 
-						   data-text="Club back full time, league details, tournaments etc." 
-						   data-via="NavanBC" 
-						   data-hashtags="navan,badminton,meath" 
-						   data-count="none">
-						Tweet
-						</a>
-						<a class="btn btn-mini" style="vertical-align: top"  onclick='postToFeed(
-						  	"#news15092012",
-							"15th September 2012",
-							"Club back fulltime, league details, tournaments, other info, etc.",
-							"Badminton club back fulltime 2 nights a week, juveniles back, league entries, etc. More info on website "
-						   ); return false;'>
-						  <i class="icon-share"></i> <strong>Share on Facebook</strong>
-						</a>
-				    <!-- End News Posting 15th September 2012 -->					
-				    <br><br>
-					<!-- Start News Posting 23th August 2012 -->
-					<a name="news23082012"></a>					
-				    <h4>23th August 2012 - Kick Off for 2012/2013 nearly here.</h4>
-					<br>
-					<div class="row-fluid">
-					 <div class="span3">				
-				    <p>		
-					<a href="./assets/img/badmintonKickoff.jpg" class="thumbnail">
-						  <img src="./assets/img/badmintonKickoff.jpg" alt="">
-					</a>
-					 </div>
-					 <div class="span9">				
-					Just over a week to kick off for the new season. 
-					<br><br>
-					First Senior Club night Monday, 3rd September 2012 @ 8pm. 
-					<br>
-					New Members welcome! Pay as you play for September come along and give it a try.  
-					<br><br>
-					<span class="label label-info">Heads up!</span> Juvenile Badminton is not back until Monday, 17th September 2012 @ 7pm
-					<br><br>
-					</div>
-					</div>
-				    <a name="news10082012"></a>					
-						<a href="https://twitter.com/share" 
-						   class="twitter-share-button" 
-						   style="vertical-align: top"
-						   data-url="http://navanbadmintonclub.com/#news23082012" 
-						   data-text="Kick Off for 2012/2013 nearly here." 
-						   data-via="NavanBC" 
-						   data-hashtags="navan,badminton,meath" 
-						   data-count="none">
-						Tweet
-						</a>
-						<a class="btn btn-mini" style="vertical-align: top"  onclick='postToFeed(
-						  	"#news23082012",
-							"23th August 2012",
-							"Kick Off for 2012/2013 nearly here.",
-							"First senior club night of 2012/2013 on Monday, 3rd September @ 8pm. More details on website"
-						   ); return false;'>
-						  <i class="icon-share"></i> <strong>Share on Facebook</strong>
-						</a>
-				    <!-- End News Posting 23th August 2012 -->
-				    <br><br>
-				    <!-- Start News Posting 10th August 2012 -->
-				    <h4>10th August 2012 - Meeting and preparation for 2012/2013 season.</h4>
-				    <p>					
-					<br>
-					With not long to go to the new 2012/2013 season. Preparations step up a gear with the first committee 
-					meeting on Monday 13th August 2012 @ 8:30pm in Claremont. Open to all and all feedback, suggestions and idea's 
-					welcome or send by email to badminton@navanbadmintonclub.com. Or let Dermot know directly.
-					<br><br>
-					Main items on the Agenda:
-					<ul>
-					    <li>Raising the Profile of the Club</li>
-					    <li>Membership drive</li>
-					    <li>Fees for the upcoming season</li>
-					    <li>Fundraising</li>
-					</ul>
-						<a href="https://twitter.com/share" 
-						   class="twitter-share-button" 
-						   style="vertical-align: top"
-						   data-url="http://navanbadmintonclub.com/#news10082012" 
-						   data-text="Meeting and preparation for 2012/2013 season." 
-						   data-via="NavanBC" 
-						   data-hashtags="navan,badminton,meath" 
-						   data-count="none">
-						Tweet
-						</a>
-						<a class="btn btn-mini" style="vertical-align: top"  onclick='postToFeed(
-						  	"#news10082012",
-							"12th August 2012",
-							"Meeting and preparation for 2012/2013 season.",
-							"First Meeting of the new season to discuss preparations for 2012/2013. More details on website"
-						   ); return false;'>
-						  <i class="icon-share"></i> <strong>Share on Facebook</strong>
-						</a>
-				    <!-- End News Posting 10th August 2012 -->
-				    <!-- Start News Posting 13th July 2012 -->
-				    <br><br>
-				    <a name="news13072012"></a>
-				    <h4>13th July 2012 - Some early details for next season 2012/2013.</h4>
-				    <p>					
-					<br>  
-					We will commence our regular club nights again in September at Claremont, 
-					on the following nights:
-					<ul>
-					    <li>Monday 3rd September 2012</li>
-					    <li>Monday 10th September 2012</li>
-					    <li>Monday 17th September 2012</li>
-					    <li>Wednesday 19th September 2012</li>
-					    <li>Monday 24th September 2012</li>
-					    <li>Wednesday 26th September 2012</li>
-					</ul>
-					We are hoping to increase our membership numbers from last year, so put the word out 
-					amongst your friends and families! During September we will operate a €5 per night 
-					'Pay as you Go' option for prospective members!
-					<br><br>
-					Simonstown Badminton Club are running a Summer Club at St. Patricks Secondary School 
-					each Wednesday night during July and August from 8pm till 10pm only €5 at the door!!
-					<br><br>
-					Join us on Facebook and we can be followed on Twitter. Find the links above.
-					<br><br>
-					Our new website is here, more details to be added. Any ideas or suggestions welcome.  
-					<br><br>
-					Yours Sincerely
-					<br>
-					The Committee.
-					<br><br>
-						<a href="https://twitter.com/share" 
-						   class="twitter-share-button" 
-						   style="vertical-align: top"
-						   data-url="http://navanbadmintonclub.com/#news13072012" 
-						   data-text="Some early details for next season." 
-						   data-via="NavanBC" 
-						   data-hashtags="navan,badminton,meath" 
-						   data-count="none">
-						Tweet
-						</a>
-						<a class="btn btn-mini" style="vertical-align: top"  onclick='postToFeed(
-						  	"#news13072012",
-							"13th July 2012",
-							"Some early details for next season",
-							"Season start dates and times, membership drive, and summer badminton"
-						   ); return false;'>
-						  <i class="icon-share"></i> <strong>Share on Facebook</strong>
-						</a>
-				    <!-- End News Posting 13th July 2012 -->
-				   </p>			
-				    <!-- End Content -->	      
-				</div><!--/span-->
+				    <h2>Club News</h2>
+					<!-- Start News Posting -->
+					
+					    
+						  
+						
+							<a name="news13072013"></a>
+<a href="./2013/07/13/news-update.html" class="postlink">13th July 2013 - AGM and 600 Club Draw held, Season review, Preparation for 2013/2014 season.</a>
+<br>
+<div class="row-fluid">
+<div class="span12">
+    AGM - The Club AGM was held on 21st June followed by the 600 draw (list of winnners below) and night out. Great turnout from members for the AGM followed up by a great night out celebrating the successful season.
+    Plans are under way for the 2013/2014 season kicking off <b>Monday 2nd September 2013</b> keep an eye on the website for more details.
+    <br><br>
+    We also bid a fond farewell to Katharina Schulte who has been with us since September 2012 and played a great season of badminton with our Ladies Grade 5 team. 
+    Good Luck to Kathi as she returns home to continue her studies.   
+    <br><br>                                                              
+    Battle of Boyne Tournament Winners - Well done to the winners from the club
+        <ul>
+            <li>Grade 6 Ladies - Bernie Shankey &amp; Bernie O'Reilly</li>
+            <li>Grade 7 Mixed  - Bernie O'Reilly &amp; Brian Keville</li>
+            <li>Grade 7 Mens   - Daniel Byrne &amp; Brian Keville</li>
+        </ul>                                                           
+    Season Review - the 2012/2013 season in numbers below. Well done to all for making it an enjoyable year.
+    <br><br>
+    <a href="./assets/img/2012/2012Info.jpg" class="thumbnail">
+          <img src="./assets/img/2012/2012Info.jpg" alt="">
+    </a>                            
+    <br><br>
+    Club 600 Draw Winners - Congrats to all the winners in the draw and thanks to everyone who took the time to sell lines!
+    <br>
+    <table class="table table-bordered">
+        <tr>
+            <td>
+            <strong>Name</strong>
+            </td>
+            <td>
+            <strong>Line No.</strong>
+            </td>
+            <td>
+            <strong>Prize</strong>
+            </td>                               
+        </tr>
+        <tr>
+            <td>Celine Cully</td><td>182</td><td>200 Euro</td>
+        </tr>
+        <tr>
+            <td>Declan Sheridan</td><td>463</td><td>100 Euro</td>
+        </tr>
+        <tr>
+            <td>Colm Buchanan</td><td>495</td><td>50 Euro</td>
+        </tr>                           
+        <tr>
+            <td>Austin Denneny</td><td>86</td><td>50 Euro</td>
+        </tr>                           
+        <tr>
+            <td>Mairin Ni Loideain</td><td>222</td><td>Spot Prize</td>
+        </tr>                           
+        <tr>
+            <td>Joanne Healy</td><td>116</td><td>Spot Prize</td>
+        </tr>                           
+        <tr>
+            <td>Victoria McElwaine</td><td>154</td><td>Spot Prize</td>
+        </tr>                           
+        <tr>
+            <td>Eva Boyle</td><td>23</td><td>Spot Prize</td>
+        </tr>                           
+        <tr>
+            <td>Eamon Dunphy</td><td>429</td><td>Spot Prize</td>
+        </tr>                                                       
+    </table>    
+</div>
+
+</div>
+<a href="https://twitter.com/share" 
+   class="twitter-share-button" 
+   style="vertical-align: top"
+   data-url="http://navanbadmintonclub.com/#news13072013" 
+   data-text="AGM and 600 Club Draw held, Season review, Preparation for 2013/2014 season." 
+   data-via="NavanBC" 
+   data-hashtags="navan,badminton,meath" 
+   data-count="none">
+Tweet
+</a>
+<a class="btn btn-mini" style="vertical-align: top"  onclick='postToFeed(
+	"#news13072013",
+	"13th July 2013",
+	"AGM and 600 Club Draw held, Season review, Preparation for 2013/2014 season.",
+	"More info on website "
+   ); return false;'>
+  <i class="icon-share"></i> <strong>Share on Facebook</strong>
+</a>
+<br><br>
+		
+						  
+					
+					    
+						  
+						
+							<a name="news02062013"></a>
+<a href="./2013/06/02/news-update.html" class="postlink">2nd June 2013 - AGM / 600 Draw / Night Out, Juvenile Season Report, MBA Dinner Dance, and Boyne Open</a>
+<br>
+<div class="row-fluid">
+<div class="span12">
+    AGM - a provisional date of Friday the 21st June has been set. The plan is to have the AGM @ 7:30pm followed by a night out and the 600 Club draw. 
+    The venue to be confirmed all members are encouraged to attend to give there input into the plans for next season. 
+    <br><br>                        
+    Juvenile's - End of season report from the juveniles can be found in the <a href="./juvenile.html">juvenile section</a> great to see so many invloved. Thanks to Esther and Martin for all there great work during the 
+    season with all the kids.
+    <br><br>
+    MBA Awards Night - large attendence at the MBA Awards night great night out with plenty of awards given out. Special mention to our own Joe Arnold 
+    who was awarded a special merit award for his many years commitment to badminton in Meath. Some photos of the night added in the <a href="./gallery.html">gallery.</a>
+    <br><br>
+    Battle of Boyne Open - Boyne Badminton Club are holding a graded open from the 4th - 15th June. More details <a href="https://sites.google.com/a/irishbadminton.com/boyne-badminton-club/battle-of-the-boyne">here</a> a number of members are already 
+    heading over contact Dermot for more info.
+    <br><br>                        
+</div>
+
+</div>
+<a href="https://twitter.com/share" 
+   class="twitter-share-button" 
+   style="vertical-align: top"
+   data-url="http://navanbadmintonclub.com/#news02062013" 
+   data-text="AGM / 600 Draw / Night Out, Juvenile Season Report, MBA Dinner Dance, and Boyne Open" 
+   data-via="NavanBC" 
+   data-hashtags="navan,badminton,meath" 
+   data-count="none">
+Tweet
+</a>
+<a class="btn btn-mini" style="vertical-align: top"  onclick='postToFeed(
+	"#news02062013",
+	"2nd June 2013",
+	"AGM / 600 Draw / Night Out, Juvenile Season Report, MBA Dinner Dance, and Boyne Open",
+	"More info on website "
+   ); return false;'>
+  <i class="icon-share"></i> <strong>Share on Facebook</strong>
+</a>
+<br><br>
+		
+						  
+					
+					    
+						  
+						
+							<a name="news03052013"></a>
+<a href="./2013/05/03/news-update.html" class="postlink">3rd May 2013 - Season finished, Well done to all members on a great year</a>
+<br>
+<div class="row-fluid">
+<div class="span12">
+    Season finished - After a long season the clubs final badminton action came on Wednesday the 1st May. Although our club nights finished in mid April there was still
+    plenty of badminton left to be played thanks to the success of many of the teams on reaching and finals and playoffs. Some great results:                       
+    <br><br>
+    <ul>
+        <li>Senior Men - Meath League Winners and Meath Cup runners up</li>
+        <li>Grade 5 Ladies - Meath League Runners Up</li>
+        <li>Grade 6 Ladies - Meath Cup Winners</li>
+        <li>Grade 6 Men - Meath Cup Runners Up</li>
+        <li>Grade 7 Ladies - Meath Cup Runners Up</li>                          
+        <li>Grade 7 Mixed - Meath League Runners Up and Meath Cup Winners</li>                                                      
+    </ul>                                                           
+    Juvenile Section - well done to all the juvenile members on a great years badminton some great talent. 
+    <br><br>
+    Gallery - a photo gallery with some photos capturing the season has been added to the website can be viewed <a href="./gallery.html">here</a>
+    <br><br>
+    MBA Presentation Night - Reminder that the MBA dinner dance is on Firday the 10th of May. Good few members heading down tickets 25 Euro let Dermot know if interested.
+    <br><br>
+    End of Season night out / 600 Draw - no date set yet but watch this space for more info. 
+    <br><br>
+</div>
+
+</div>
+<a href="https://twitter.com/share" 
+   class="twitter-share-button" 
+   style="vertical-align: top"
+   data-url="http://navanbadmintonclub.com/#news03052013" 
+   data-text="Season finished, Well done to all members on a great year" 
+   data-via="NavanBC" 
+   data-hashtags="navan,badminton,meath" 
+   data-count="none">
+Tweet
+</a>
+<a class="btn btn-mini" style="vertical-align: top"  onclick='postToFeed(
+	"#news03052013",
+	"3rd May 2013",
+	"Season finished, Well done to all members on a great year",
+	"More info on website "
+   ); return false;'>
+  <i class="icon-share"></i> <strong>Share on Facebook</strong>
+</a>
+<br><br>
+		
+						  
+					
+					    
+						  
+						
+							<a name="news31032013"></a>
+<a href="./2013/03/31/news-update.html" class="postlink">31st March 2013 - End of Season, Night out, Club draw</a>
+<br>
+<div class="row-fluid">
+<div class="span12">
+    <span class="label label-info">Alert!</span> No Badminton on Easter Monday (1st April). Back on Wednesday (3rd April) 
+    <br><br>                        
+    End of season - The last night of badminton for the season will be Monday, April 22nd in Claremont. There are still a number of teams
+    in contention in the League finals and Cup competitions. Our grade 7 Mixed team were unlucky to narrowly lose out to Kilmessan in the League final
+    after drawing on the night they lost out on a count back of games!  
+    <br><br>
+    Night out - after the long season an end of season night out is to be organised. Date not final yet all suggestions and idea's welcome. We'll get the
+    details published out nearer the time. On the same note Meath Badminton have the annual presentation night on Friday the 10th of May on in the Headfort Arms, Kells.
+    <br><br>
+    Club 600 Draw - Final preparations are under way for the draw which will take place before the end of season. Still a few lines left so if you haven't 
+    had your chance to sell any lines. Let Darragh or Dermot know.
+    <br><br>
+</div>
+
+</div>
+<a href="https://twitter.com/share" 
+   class="twitter-share-button" 
+   style="vertical-align: top"
+   data-url="http://navanbadmintonclub.com/#news31032013" 
+   data-text="End of Season, Night out, Club draw" 
+   data-via="NavanBC" 
+   data-hashtags="navan,badminton,meath" 
+   data-count="none">
+Tweet
+</a>
+<a class="btn btn-mini" style="vertical-align: top"  onclick='postToFeed(
+	"#news31032013",
+	"31st March 2013",
+	"End of Season, Night out, Club draw",
+	"More info on website "
+   ); return false;'>
+  <i class="icon-share"></i> <strong>Share on Facebook</strong>
+</a>
+<br><br>
+		
+						  
+					
+					    
+						  
+						
+							<a name="news10032013"></a>
+<a href="./2013/03/10/news-update.html" class="postlink">10th March 2013 - Fixtures Cup update, Meath Championships 2013</a>
+<br>
+<div class="row-fluid">
+<div class="span12">
+    <span class="label label-info">Note!</span> No Badminton on Monday (18th March) as its a Bank Holiday. Back on Wednesday (20th March) 
+    <br><br>                        
+    Fixtures - As we reach the business end of the season we have the usual end of season fixture congestion with plenty of badminton
+    still to be played. Most teams still have a fighting chance of making the league play offs. And for others the Cup offers another bite 
+    of the apple. Fixtures have been <a href="./fixtures.html">updated</a> with the cup updates, and Meath Badminton have published on the League and Cups finals schedule 
+    can be found <a href="http://meathbadminton.webs.com/League%20Dates%202013.pdf">here</a> and <a href="http://meathbadminton.webs.com/Cup%20Dates%202013.pdf">here</a>. 
+    <br><br>                        
+    Meath Championships 2013 - Great badminton over the last few weeks in the championships great to see such a large turnout. Well done to
+    Meath Badminton for putting on a great event and to our own Matthew Duffy for his part in helping to organise it. Some great results for the club
+    with:
+    <br><br>
+    <ul>
+    <li>Paul Ennis (Navan) and Lynn Boylan - Senior Mixed - Winners</li>
+    <li>Madge Boyle (Navan) and Stephen Murray - Grade 5 Mixed - Winners</li>
+    <li>Joe Arnold and Declan Sheridan - Grade 6 Men - Winners</li>
+    <li>Nadine Byrne and Declan Sheridan - Grade 7 Mixed - Winners </li>
+    </ul>                                   
+    <ul>
+    <li>Paul Ennis - Senior Mens Singles - Runner up</li>
+    <li>Matthew Duffy and Paul Ennis - Senior Mens - Runners up</li>
+    <li>Madge Boyle - Grade 5 Ladies - Runner up</li>
+    <li>Brian Dunphy and Declan Sheridan - Grade 7 Mens - Runners up</li>
+    </ul>
+</div>
+
+</div>
+<a href="https://twitter.com/share" 
+   class="twitter-share-button" 
+   style="vertical-align: top"
+   data-url="http://navanbadmintonclub.com/#news10032013" 
+   data-text="Fixtures Cup update, Meath Championships 2013" 
+   data-via="NavanBC" 
+   data-hashtags="navan,badminton,meath" 
+   data-count="none">
+Tweet
+</a>
+<a class="btn btn-mini" style="vertical-align: top"  onclick='postToFeed(
+	"#news10032013",
+	"10th March 2013",
+	"Fixtures Cup update, Meath Championships 2013",
+	"More info on website "
+   ); return false;'>
+  <i class="icon-share"></i> <strong>Share on Facebook</strong>
+</a>
+<br><br>
+		
+						  
+					
+					    
+						  
+						
+							<a name="news26012012"></a>
+<a href="./2013/01/26/news-update.html" class="postlink">26th January 2013 - Fixtures update, Meath Championships 2013, Meath Chronicle</a>
+<br>
+<div class="row-fluid">
+<div class="span12">
+    Fixtures - The fixtures have been updated after some matches were cancelled and re-arranged. 
+    Also the draws for the cup competitions have been made, Joe is looking to set the fixtures so they will be available soon.  
+    Meath Badminton have the latest league tables updated they can be found <a href="http://meathbadminton.webs.com/leagueresults.htm">here</a>
+    (links also available from the <a href="./fixtures.html">fixtures page</a>)
+    In general most teams have had a good run of results since xmas let's hope we can keep it going!!                       
+    <br><br>
+    Meath Championships 2013 - reminder the championships are coming up in Feb with a number of nights on in Claremont. If you haven't already
+    got your entry in let Dermot or Matthew know. 
+    <br><br>
+    600 Draw - the 600 draw continues if you haven't had your opportunity to sell some lines yet :) let Darragh or Dermot know.
+    <br><br>                        
+    Meath Chronicle - finally the Meath Chronicle were up last Wednesday and took some photos should be in the next edition. Online article also <a href="http://www.meathchronicle.ie/sport/othersport/articles/2013/01/23/4014083-meath-badminton-action-/">here</a>
+    with some live action also available on YouTube see below. 
+    <br><br>                        
+    New Members - We may be mid season but if your interested and want to give badminton a try your welcome to come on the club nights and try it out as pay as you go.
+    <br><br>                                                
+</div>
+
+</div>
+<a href="https://twitter.com/share" 
+   class="twitter-share-button" 
+   style="vertical-align: top"
+   data-url="http://navanbadmintonclub.com/#news26012012" 
+   data-text="Fixtures update, Meath Championships 2013, Meath Chronicle" 
+   data-via="NavanBC" 
+   data-hashtags="navan,badminton,meath" 
+   data-count="none">
+Tweet
+</a>
+<a class="btn btn-mini" style="vertical-align: top"  onclick='postToFeed(
+	"#news26012012",
+	"26th January 2013",
+	"Fixtures update, Meath Championships 2013, Meath Chronicle",
+	"More info on website "
+   ); return false;'>
+  <i class="icon-share"></i> <strong>Share on Facebook</strong>
+</a>
+<br><br>
+		
+						  
+					
+					    
+						  
+						
+							<a name="news19122012"></a>
+<a href="./2012/12/19/news-update.html" class="postlink">19th December 2012 - Christmas drinks/break, Meath Championships 2013</a>
+<br>
+<div class="row-fluid">
+<div class="row-fluid">
+    <div class="span3">             
+        <p>     
+        <a href="./assets/img/santa.jpg" class="thumbnail">
+        <img src="./assets/img/santa.jpg" alt="">
+        </a>                                            
+    </div>
+    <div class="span9">             
+        Christmas Drinks - Are on this Sunday, 23rd December. In Ryans Bar on Trimgate Street. Kick off @ 8:30pm Finger Food ordered. And like a Christmas Carol all are welcome present and past members. 
+        <br><br>                        
+        Christmas Break - The last club night of 2012 was last Monday 17th of December. We'll be back early in January on Wednesday 2nd. 
+        Nice to finish the year on a high with a number of good results for most of the teams over the last two weeks with wins for the Senior Mens, Grade 5 Ladies, Grade 6 Mens &amp; Mixed, and Grade 7 Ladies lets hope we can keep the run going into 2013!!!
+        <br><br>
+    </div>
+</div>
+
+<div class="row-fluid">
+    <div class="span12">
+        Meath Championships 2013 - Dates have been announced for the Meath championships. Some of the matches to be held in Navan so no excuses not to get involved all grades catered for. More details <a href="http://meathbadminton.webs.com/MEATH%20CHAMPIONSHIPS%202013.pdf">here</a>
+        <br><br>
+        Finally Happy Christmas and New Year to everyone!!
+        <br><br>                        
+    </div>
+</div>
+
+</div>
+<a href="https://twitter.com/share" 
+   class="twitter-share-button" 
+   style="vertical-align: top"
+   data-url="http://navanbadmintonclub.com/#news19122012" 
+   data-text="Christmas drinks/break, Meath Championships 2013" 
+   data-via="NavanBC" 
+   data-hashtags="navan,badminton,meath" 
+   data-count="none">
+Tweet
+</a>
+<a class="btn btn-mini" style="vertical-align: top"  onclick='postToFeed(
+	"#news19122012",
+	"19th December 2012",
+	"Christmas drinks/break, Meath Championships 2013",
+	"More info on website "
+   ); return false;'>
+  <i class="icon-share"></i> <strong>Share on Facebook</strong>
+</a>
+<br><br>
+		
+						  
+					
+					    
+						  
+						
+							<a name="news02122012"></a>
+<a href="./2012/12/02/news-update.html" class="postlink">2nd December 2012 - Xmas Holidays, Xmas drinks, Results online</a>
+<br>
+<div class="row-fluid">
+<div class="span12">
+    Christmas Holidays - Our last club night is Monday 17th of December, we will return on Wednesday 2nd January 2013.
+    <br><br>
+    Christmas Night Out is on Sunday the 23rd of December. Plan is to head out together for a few drinks and some finger food in town, venue to be decided!!
+    <br><br>
+    A busy night tomorrow Monday the 3rd of December will see 3 home matches in Claremont.  1 court will still be available for play!
+    <br><br>
+    Results have been added to the fixtures section on the website <a href="./fixtures.html">here</a> 
+    <br><br>
+    The Club '600' Draw is in full swing, keep an eye out for the card and bag everyone will get a turn to sell a few lines!
+    <br><br>
+    The <a href="http://www.badmintonireland.com/news/68217/Irish-Open-draws-bumper-entry">Irish Badminton Open</a>, 6th to 9th December 2012 at Baldoyle Badminton Centre. Tickets available some great badminton to watch
+    <br><br>                        
+    There is a Christmas Bonanza Graded Tournament being held at Baldoyle Badminton Centre December 29th and 30th 2012 (entries due by 14th Dec) 
+    <br><br>
+    Outstanding subscriptions can be paid to Elaine Collins or to Martin/Dermot. Various arrangements/options on how to pay available.
+    <br><br>                        
+</div>
+
+</div>
+<a href="https://twitter.com/share" 
+   class="twitter-share-button" 
+   style="vertical-align: top"
+   data-url="http://navanbadmintonclub.com/#news02122012" 
+   data-text="Xmas Holidays, Xmas drinks, Results online" 
+   data-via="NavanBC" 
+   data-hashtags="navan,badminton,meath" 
+   data-count="none">
+Tweet
+</a>
+<a class="btn btn-mini" style="vertical-align: top"  onclick='postToFeed(
+	"#news02122012",
+	"2nd December 2012",
+	"Xmas Holidays, Xmas drinks, Results online",
+	"More info on website "
+   ); return false;'>
+  <i class="icon-share"></i> <strong>Share on Facebook</strong>
+</a>
+<br><br>
+		
+						  
+					
+					    
+						  
+						
+							<a name="news06112012"></a>
+<a href="./2012/11/06/news-update.html" class="postlink">6th November 2012 - Irish A Grade 2012 Winners, Fixtures published.</a>
+<br>
+<div class="row-fluid">
+<div class="span12">
+    <span class="label label-info">Great News!</span> Well done to Colm and Matthew on winning the men's doubles @ the Irish A Grade 2012 tournament !! over the weekend in Dublin. In what was a competitive field 
+    and a number of close games the guys managed to win. Full report available on Badminton Ireland <a href="http://www.badmintonireland.com/news/67971/Irish-A-Grade-2012">here</a>
+    <br><br>
+    All fixtures have now been set, they have been published on the website. Find a link above and <a href="./fixtures.html">here</a>. Thanks to Joe for all the work in getting them organised. 
+    <br><br>
+    Teams are already in full swing with the Grade 6 Mixed narrowly losing out in close games to Ardee last Friday away. And a great win by the Senior Men's team last night at home to Stamullen 4-0. 
+    <br><br>
+    Reminder subscriptions can be paid to Elaine Collins or to Martin/Dermot. Various options of how to pay available 
+    <br><br>
+</div>
+
+</div>
+<a href="https://twitter.com/share" 
+   class="twitter-share-button" 
+   style="vertical-align: top"
+   data-url="http://navanbadmintonclub.com/#news06112012" 
+   data-text="Irish A Grade 2012 Winners, Fixtures published." 
+   data-via="NavanBC" 
+   data-hashtags="navan,badminton,meath" 
+   data-count="none">
+Tweet
+</a>
+<a class="btn btn-mini" style="vertical-align: top"  onclick='postToFeed(
+	"#news06112012",
+	"6th November 2012",
+	"Irish A Grade 2012 Winners, Fixtures published.",
+	"More info on website "
+   ); return false;'>
+  <i class="icon-share"></i> <strong>Share on Facebook</strong>
+</a>
+<br><br>
+		
+						  
+					
+					    
+						  
+						
+							<a name="news25102012"></a>
+<a href="./2012/10/25/news-update.html" class="postlink">25th October 2012 - Team details, Club draw</a>
+<br>
+<div class="row-fluid">
+<div class="span12">
+    <span class="label label-info">Heads up!</span> No Badminton this Monday as its a Bank Holiday (29th Oct) back on Wednesday (31st Oct) 
+    <br><br>
+    The club teams for the different leagues for the season ahead <a href="./teams.html">can be found here.</a> 
+    <br><br>
+    The fixtures are to follow Joe is hard @ work pulling them together. They will be published once all confirmed. 
+    Best of luck to all !!!
+    <br><br>
+    600 Club Draw - thanks to Daragh for getting the draw organised. Details are as follows:
+    <br><br>
+    Tickets from 0.01 Cent to 6.00 Euro. The number you pull is how much your ticket will cost. i.e. number 23 = 23 cent, number 243 = 2 Euro 43 Cent etc.
+    <br><br>
+    Prizes:
+    <ul>
+        <li>1st 200.00 Euro</li>
+        <li>2nd 100.00 Euro</li>
+        <li>3rd  50.00 Euro</li>
+        <li>4th  50.00 Euro</li>
+        <li>plus loads of spot prizes</li>
+    </ul>                       
+    Each Club Member will get a chance to sell some lines!!
+    <br><br>
+    Gentle reminder subscriptions can be paid to Elaine Collins or to Martin/Dermot.
+    <br><br>
+</div>
+
+</div>
+<a href="https://twitter.com/share" 
+   class="twitter-share-button" 
+   style="vertical-align: top"
+   data-url="http://navanbadmintonclub.com/#news25102012" 
+   data-text="Team details, Club draw" 
+   data-via="NavanBC" 
+   data-hashtags="navan,badminton,meath" 
+   data-count="none">
+Tweet
+</a>
+<a class="btn btn-mini" style="vertical-align: top"  onclick='postToFeed(
+	"#news25102012",
+	"25th October 2012",
+	"Team details, Club draw",
+	"More info on website "
+   ); return false;'>
+  <i class="icon-share"></i> <strong>Share on Facebook</strong>
+</a>
+<br><br>
+		
+						  
+					
+					    
+						  
+						
+							<a name="news14102012"></a>
+<a href="./2012/10/14/news-update.html" class="postlink">14th October 2012 - League entry deadlines, Leinster Ladders, Fundraising</a>
+<br>
+<div class="row-fluid">
+<div class="span12">                
+    Meath league entry deadline is fast approaching so if you haven't already expressed an interest to be on a team let Dermot know. Fixtures meeting for Dublin league soon.  
+    <br><br>
+    Leinster Badminton have launched the Leinster Ladders free to enter. <a href="http://www.leinsterbadminton.com/LeinsterLadders/tabid/910/language/en-US/Default.aspx">Click here for more details</a>                           
+    <br><br>
+    Fundraising - Just to get it on the radar for people the 600 draw will be coming soon. More details closer to launch date.
+    <br><br>
+    New Members welcome! Great to see some new faces already. Come along and try a few nights pay as you play before deciding to commit to full membership.                     
+    <br><br>
+</div>
+
+</div>
+<a href="https://twitter.com/share" 
+   class="twitter-share-button" 
+   style="vertical-align: top"
+   data-url="http://navanbadmintonclub.com/#news14102012" 
+   data-text="League entry deadlines, Leinster Ladders, Fundraising" 
+   data-via="NavanBC" 
+   data-hashtags="navan,badminton,meath" 
+   data-count="none">
+Tweet
+</a>
+<a class="btn btn-mini" style="vertical-align: top"  onclick='postToFeed(
+	"#news14102012",
+	"14th October 2012",
+	"League entry deadlines, Leinster Ladders, Fundraising",
+	"More info on website "
+   ); return false;'>
+  <i class="icon-share"></i> <strong>Share on Facebook</strong>
+</a>
+<br><br>
+		
+						  
+					
+					    
+						  
+						
+							<a name="news15092012"></a>
+<a href="./2012/09/15/news-update.html" class="postlink">15th September 2012 - Club back full time this week</a>
+<br>
+<div class="row-fluid">
+<div class="row-fluid">
+    <div class="span3">             
+        <p>     
+        <a href="./assets/img/logo.jpg" class="thumbnail">
+          <img src="./assets/img/logo.jpg" alt="">
+        </a>
+    </div>
+    <div class="span9">             
+        The new season swings into full time this week with the the club back to two nights on Monday 17th September (8:30pm) and Wednesday 19th September (8pm). 
+        <br><br>                    
+        Also the juvenile's are back on Monday 17th September @ 7pm. More details contact Esther (086) 1663248
+        <br><br>                    
+    </div>
+</div>
+
+<div class="row-fluid">
+    <div class="span12">                
+        Dublin League Secretaries Meeting took place on Thursday 6th Sep - Martin in attendence, gradings published for next year, some minor rule changes, deadline for team entries Friday 28th September. More info available from Martin.  
+        <br><br>
+        Entries are now welcome for the Leinster Badminton �Oktoberfest� Graded Tournament which takes place Saturday 29th September 2012 and Sunday 30th September 2012. <a href="http://www.tournamentsoftware.com/sport/tournament.aspx?id=7A799AAE-CFB1-4C8D-81F3-7958EB6F2EA2">Click here for more details</a>                     
+        <br><br>
+        History of the club - call to all past and current members if they have any old photos etc about the club can they let Dermot or email through as were looking to pull together something.  
+        <br><br>
+        New Members welcome! pay as you play for September come along and give it a try.                    
+        <br><br>
+    </div>
+</div>                  
+
+</div>
+<a href="https://twitter.com/share" 
+   class="twitter-share-button" 
+   style="vertical-align: top"
+   data-url="http://navanbadmintonclub.com/#news15092012" 
+   data-text="Club back full time this week" 
+   data-via="NavanBC" 
+   data-hashtags="navan,badminton,meath" 
+   data-count="none">
+Tweet
+</a>
+<a class="btn btn-mini" style="vertical-align: top"  onclick='postToFeed(
+	"#news15092012",
+	"15th September 2012",
+	"Club back full time this week",
+	"More info on website "
+   ); return false;'>
+  <i class="icon-share"></i> <strong>Share on Facebook</strong>
+</a>
+<br><br>
+		
+						  
+					
+					    
+						  
+						
+							<a name="news23082012"></a>
+<a href="./2012/08/23/news-update.html" class="postlink">23th August 2012 - Kick Off for 2012/2013 nearly here.</a>
+<br>
+<div class="row-fluid">
+<div class="row-fluid">
+    <div class="span3">             
+        <p>     
+        <a href="./assets/img/badmintonKickoff.jpg" class="thumbnail">
+            <img src="./assets/img/badmintonKickoff.jpg" alt="">
+        </a>
+    </div>
+    <div class="span9">             
+        Just over a week to kick off for the new season. 
+        <br><br>
+        First Senior Club night Monday, 3rd September 2012 @ 8pm. 
+        <br>
+        New Members welcome! Pay as you play for September come along and give it a try.  
+        <br><br>
+        <span class="label label-info">Heads up!</span> Juvenile Badminton is not back until Monday, 17th September 2012 @ 7pm
+        <br><br>
+    </div>
+</div>
+
+</div>
+<a href="https://twitter.com/share" 
+   class="twitter-share-button" 
+   style="vertical-align: top"
+   data-url="http://navanbadmintonclub.com/#news23082012" 
+   data-text="Kick Off for 2012/2013 nearly here." 
+   data-via="NavanBC" 
+   data-hashtags="navan,badminton,meath" 
+   data-count="none">
+Tweet
+</a>
+<a class="btn btn-mini" style="vertical-align: top"  onclick='postToFeed(
+	"#news23082012",
+	"23th August 2012",
+	"Kick Off for 2012/2013 nearly here.",
+	"More info on website "
+   ); return false;'>
+  <i class="icon-share"></i> <strong>Share on Facebook</strong>
+</a>
+<br><br>
+		
+						  
+					
+					    
+						  
+						
+							<a name="news10082012"></a>
+<a href="./2012/08/10/news-update.html" class="postlink">10th August 2012 - Meeting and preparation for 2012/2013 season.</a>
+<br>
+<div class="row-fluid">
+<div class="span12">                                    
+    With not long to go to the new 2012/2013 season. Preparations step up a gear with the first committee 
+    meeting on Monday 13th August 2012 @ 8:30pm in Claremont. Open to all and all feedback, suggestions and idea's 
+    welcome or send by email to badminton@navanbadmintonclub.com. Or let Dermot know directly.
+    <br><br>
+    Main items on the Agenda:
+    <ul>
+        <li>Raising the Profile of the Club</li>
+        <li>Membership drive</li>
+        <li>Fees for the upcoming season</li>
+        <li>Fundraising</li>
+    </ul>
+</div>
+
+</div>
+<a href="https://twitter.com/share" 
+   class="twitter-share-button" 
+   style="vertical-align: top"
+   data-url="http://navanbadmintonclub.com/#news10082012" 
+   data-text="Meeting and preparation for 2012/2013 season." 
+   data-via="NavanBC" 
+   data-hashtags="navan,badminton,meath" 
+   data-count="none">
+Tweet
+</a>
+<a class="btn btn-mini" style="vertical-align: top"  onclick='postToFeed(
+	"#news10082012",
+	"10th August 2012",
+	"Meeting and preparation for 2012/2013 season.",
+	"More info on website "
+   ); return false;'>
+  <i class="icon-share"></i> <strong>Share on Facebook</strong>
+</a>
+<br><br>
+		
+						  
+					
+					    
+						  
+						
+							<a name="news13072012"></a>
+<a href="./2012/07/13/news-update.html" class="postlink">13th July 2012 - Some early details for next season 2012/2013.</a>
+<br>
+<div class="row-fluid">
+<div class="span12">
+    We will commence our regular club nights again in September at Claremont, 
+    on the following nights:
+    <ul>
+        <li>Monday 3rd September 2012</li>
+        <li>Monday 10th September 2012</li>
+        <li>Monday 17th September 2012</li>
+        <li>Wednesday 19th September 2012</li>
+        <li>Monday 24th September 2012</li>
+        <li>Wednesday 26th September 2012</li>
+    </ul>
+    We are hoping to increase our membership numbers from last year, so put the word out 
+    amongst your friends and families! During September we will operate a 5 Euro per night 
+    'Pay as you Go' option for prospective members!
+    <br><br>
+    Simonstown Badminton Club are running a Summer Club at St. Patricks Secondary School 
+    each Wednesday night during July and August from 8pm till 10pm only 5 Euro at the door!!
+    <br><br>
+    Join us on Facebook and we can be followed on Twitter. Find the links above.
+    <br><br>
+    Our new website is here, more details to be added. Any ideas or suggestions welcome.  
+    <br><br>
+    Yours Sincerely
+    <br>
+    The Committee.
+    <br><br>
+</div>                  
+
+</div>
+<a href="https://twitter.com/share" 
+   class="twitter-share-button" 
+   style="vertical-align: top"
+   data-url="http://navanbadmintonclub.com/#news13072012" 
+   data-text="Some early details for next season 2012/2013." 
+   data-via="NavanBC" 
+   data-hashtags="navan,badminton,meath" 
+   data-count="none">
+Tweet
+</a>
+<a class="btn btn-mini" style="vertical-align: top"  onclick='postToFeed(
+	"#news13072012",
+	"13th July 2012",
+	"Some early details for next season 2012/2013.",
+	"More info on website "
+   ); return false;'>
+  <i class="icon-share"></i> <strong>Share on Facebook</strong>
+</a>
+<br><br>
+		
+						  
+										
+					<!-- End News Posting -->									
+				</div>
 				<!-- Right Nav Bar -->
 				<div class="span4">
 				  	<div class="sidebar-nav-right">
@@ -877,7 +1005,8 @@
 						</p>
 					</div><!--/.sidebar -->
 				</div><!--/span-->
-		  </div><!--/row-->
+		  </div><!--/row-->	  
+			<!-- End Content Section -->	  
         </div><!--/span-->
       </div><!--/row-->
 	  
@@ -904,13 +1033,14 @@
     <script src="./assets/js/bootstrap-collapse.js"></script>
     <script src="./assets/js/bootstrap-carousel.js"></script>
     <script src="./assets/js/bootstrap-typeahead.js"></script>
+	<script src="./assets/js/countdown.js"></script>	
 
     <!-- Auto load carousel to slide -->
     <script type="text/javascript">
 	$('.carousel').carousel({
-  		interval: 6000
+  		interval: 4000
 	})
-
+	
 	var popoverOptions = {
 			  placement: 'left',
 			  html: 'true',
@@ -920,12 +1050,12 @@
 					   +'<strong>Secretary:</strong><br>Martin Sheridan<br>087 2669648<br><br>'
 					   +'<strong>Match Secretary:</strong><br>Joe Arnold<br>086 3648648<br><br>'					   					   
 					   +'<strong>Treasurer:</strong><br>Elaine Collins<br><br>'
-					   +'<strong>Other:</strong><br>Declan Sheridan<br>Daragh McDonald<br><br>'
+					   +'<strong>Other:</strong><br>Declan Sheridan<br>Daragh McDonald<br>Bernie O&apos;Reilly<br>Brian Dunphy<br><br>'
 					   +'<strong>Juvenile Badminton:</strong><br>Esther Mulvihill<br>086 1663248<br>'					   
 					   +'</p>'			  
 			};	
 	
-	$('#committeePopover').popover(popoverOptions);	
+	$('#committeePopover').popover(popoverOptions);			
     </script>
 
     <!-- statcounter code -->
@@ -941,5 +1071,24 @@
 	
     <!-- Twitter widgets javascript used in the follow and tweet buttons only needed once on page -->
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>	
+	
+    <script type="text/javascript">	
+		$(document).ready(function() {
+			var activeMenu = $("#Home");		
+			if (!activeMenu.hasClass('active')) {
+				activeMenu.addClass('active');
+			}
+			
+			$("#countdown").countdown({
+				date: "2 september 2013 20:00:00",
+				format: "on"
+			},			
+			function() {
+				// callback function
+			});			
+						
+		} );		
+	</script>
+	
   </body>
 </html>

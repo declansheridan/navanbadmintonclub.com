@@ -2,16 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Navan Badminton Club - Juvenile Section</title>
+    <title>Navan Badminton Club - Juvenile</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Navan Badminton Club, juvenile section">    
+    <meta name="description" content="Navan Badminton Club">    
     <link href="./assets/css/bootstrap.css" rel="stylesheet">
+    <link href="./assets/css/countdown.css" rel="stylesheet">	
     <style type="text/css">
-      body {
-        padding-top: 50px;
-        padding-bottom: 10px;
-      }	  
-    </style>	
+		body {
+			padding-top: 50px;
+			padding-bottom: 10px;
+		}	  
+		.postlink {
+			font-size: 14px;
+			line-height: 36px;	
+			margin: 0;
+			font-family: inherit;
+			font-weight: bold;
+			color: inherit;
+			text-rendering: optimizelegibility;		
+		}
+	</style>	
     <link href="./assets/css/bootstrap-responsive.css" rel="stylesheet">
     <link rel="shortcut icon" href="./assets/ico/favicon.ico">
     <script src="http://widgets.twimg.com/j/2/widget.js"></script>	
@@ -41,9 +51,7 @@
 
 			FB.ui(obj, callback);
 		}
-	</script>
-	<!-- End Facebook Javascript Dialog-->
-
+	</script>  
 	<div class="navbar navbar-fixed-top">
 	  <div class="navbar-inner">
 		<div class="container">		  
@@ -54,19 +62,17 @@
 			</a>		  
 			<a class="brand" href="./index.html" style="color: white;">Navan Badminton Club</a>
 			<ul class="nav">
-			  <li><a href="./index.html">Home</a></li>
-			  <li><a href="./teams.html">Teams</a></li>			  
-			  <li><a href="./fixtures.html">Fixtures / Results</a></li>			  			  
-			  <li><a href="./links.html">Links / Downloads</a></li>
-			  <li><a href="./gallery.html">Gallery</a></li>			  
-			  <li class="active"><a href="./juvenile.html">Juvenile</a></li>			  			  
-			  <li><a href="./contact.html">Contact us</a></li>
+			  <li id="Home"><a href="./index.html">Home</a></li>
+			  <li id="Teams"><a href="./teams.html">Teams</a></li>
+			  <li id="Fixtures"><a href="./fixtures.html">Fixtures / Results</a></li>
+			  <li id="Links"><a href="./links.html">Links / Downloads</a></li>
+			  <li id="Gallery"><a href="./gallery.html">Gallery</a></li>
+			  <li id="Juvenile"><a href="./juvenile.html">Juvenile</a></li>			  
+			  <li id="Contact"><a href="./contact.html">Contact us</a></li>
 			</ul>
 		</div>
 	  </div>
 	</div>
-	
-    <p id='msg'></p>
 
     <div class="container-fluid">
       <div class="row-fluid">
@@ -102,10 +108,12 @@
 			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 			<!-- Twitter Badge END -->
 			<br>			
-          </div><!--/.well -->		  
+          </div><!--/.well -->
         </div><!--/span-->
-
-		<div class="span6">
+        <div class="span9">		
+			<!-- Start Content Section -->
+                	<div class="row-fluid">
+		<div class="span8">
 			<h2>Juvenile Season - 2012 / 2013</h2>
 			<br>
 			<p>
@@ -174,9 +182,8 @@
 					</a>											
 				 </div>					 
 			</div>			
-        </div><!--/span-->	
-		
-		<div class="span3">
+        </div><!--/span-->		
+		<div class="span4">
 			<h2>Juvenile Section</h2>
 			<br>
 			<p>
@@ -200,12 +207,11 @@
 					<td><strong>Email</strong></td><td>badminton@navanbadmintonclub.com</td>
 				</tr>							
 			</table>			
-		</div>
-			
-		</div><!--/row-->
-	  
-	  
-	  
+		</div>		
+	</div>	  
+			<!-- End Content Section -->	  
+        </div><!--/span-->
+      </div><!--/row-->
 	  
       <hr>
 
@@ -230,13 +236,14 @@
     <script src="./assets/js/bootstrap-collapse.js"></script>
     <script src="./assets/js/bootstrap-carousel.js"></script>
     <script src="./assets/js/bootstrap-typeahead.js"></script>
+	<script src="./assets/js/countdown.js"></script>	
 
     <!-- Auto load carousel to slide -->
     <script type="text/javascript">
 	$('.carousel').carousel({
-  		interval: 6000
+  		interval: 4000
 	})
-
+	
 	var popoverOptions = {
 			  placement: 'left',
 			  html: 'true',
@@ -246,12 +253,12 @@
 					   +'<strong>Secretary:</strong><br>Martin Sheridan<br>087 2669648<br><br>'
 					   +'<strong>Match Secretary:</strong><br>Joe Arnold<br>086 3648648<br><br>'					   					   
 					   +'<strong>Treasurer:</strong><br>Elaine Collins<br><br>'
-					   +'<strong>Other:</strong><br>Declan Sheridan<br>Daragh McDonald<br><br>'
+					   +'<strong>Other:</strong><br>Declan Sheridan<br>Daragh McDonald<br>Bernie O&apos;Reilly<br>Brian Dunphy<br><br>'
 					   +'<strong>Juvenile Badminton:</strong><br>Esther Mulvihill<br>086 1663248<br>'					   
 					   +'</p>'			  
 			};	
 	
-	$('#committeePopover').popover(popoverOptions);	
+	$('#committeePopover').popover(popoverOptions);			
     </script>
 
     <!-- statcounter code -->
@@ -267,5 +274,24 @@
 	
     <!-- Twitter widgets javascript used in the follow and tweet buttons only needed once on page -->
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>	
+	
+    <script type="text/javascript">	
+		$(document).ready(function() {
+			var activeMenu = $("#Juvenile");		
+			if (!activeMenu.hasClass('active')) {
+				activeMenu.addClass('active');
+			}
+			
+			$("#countdown").countdown({
+				date: "2 september 2013 20:00:00",
+				format: "on"
+			},			
+			function() {
+				// callback function
+			});			
+						
+		} );		
+	</script>
+	
   </body>
 </html>

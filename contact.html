@@ -2,22 +2,56 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Navan Badminton Club - Contact Details</title>
+    <title>Navan Badminton Club - Contact Us</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Navan Badminton Club">    
     <link href="./assets/css/bootstrap.css" rel="stylesheet">
+    <link href="./assets/css/countdown.css" rel="stylesheet">	
     <style type="text/css">
-      body {
-        padding-top: 50px;
-        padding-bottom: 10px;
-      }	  
-    </style>	
+		body {
+			padding-top: 50px;
+			padding-bottom: 10px;
+		}	  
+		.postlink {
+			font-size: 14px;
+			line-height: 36px;	
+			margin: 0;
+			font-family: inherit;
+			font-weight: bold;
+			color: inherit;
+			text-rendering: optimizelegibility;		
+		}
+	</style>	
     <link href="./assets/css/bootstrap-responsive.css" rel="stylesheet">
     <link rel="shortcut icon" href="./assets/ico/favicon.ico">
     <script src="http://widgets.twimg.com/j/2/widget.js"></script>	
   </head>
 
   <body>
+	<!-- Start Facebook Javascript Dialog -->
+	<div id='fb-root'></div>
+	<script src='http://connect.facebook.net/en_US/all.js'></script>
+	<script> 
+		FB.init({appId: "333378973415023", status: true, cookie: true});
+
+		function postToFeed(linkUrl, linkName, headline, description) {
+			// calling the API ...
+			var obj = {
+			  method: 'feed',
+			  link: 'http://navanbadmintonclub.com/'+linkUrl,
+			  picture: 'http://navanbadmintonclub.com/assets/img/98191_badminton_shuttlecock_on_rack.jpg',
+			  name: 'Navan Badminton Club - '+linkName,
+			  caption: ''+headline,
+			  description: ''+description
+			};
+
+			function callback(response) {
+				  //document.getElementById('msg').innerHTML = "Post ID: " + response['post_id'];
+			}
+
+			FB.ui(obj, callback);
+		}
+	</script>  
 	<div class="navbar navbar-fixed-top">
 	  <div class="navbar-inner">
 		<div class="container">		  
@@ -28,13 +62,13 @@
 			</a>		  
 			<a class="brand" href="./index.html" style="color: white;">Navan Badminton Club</a>
 			<ul class="nav">
-			  <li><a href="./index.html">Home</a></li>
-			  <li><a href="./teams.html">Teams</a></li>
-			  <li><a href="./fixtures.html">Fixtures / Results</a></li>
-			  <li><a href="./links.html">Links / Downloads</a></li>
-			  <li><a href="./gallery.html">Gallery</a></li>
-			  <li><a href="./juvenile.html">Juvenile</a></li>			  
-			  <li class="active"><a href="./contact.html">Contact us</a></li>
+			  <li id="Home"><a href="./index.html">Home</a></li>
+			  <li id="Teams"><a href="./teams.html">Teams</a></li>
+			  <li id="Fixtures"><a href="./fixtures.html">Fixtures / Results</a></li>
+			  <li id="Links"><a href="./links.html">Links / Downloads</a></li>
+			  <li id="Gallery"><a href="./gallery.html">Gallery</a></li>
+			  <li id="Juvenile"><a href="./juvenile.html">Juvenile</a></li>			  
+			  <li id="Contact"><a href="./contact.html">Contact us</a></li>
 			</ul>
 		</div>
 	  </div>
@@ -76,8 +110,9 @@
 			<br>			
           </div><!--/.well -->
         </div><!--/span-->
-        <div class="span9">
-		  <!-- Contact Section -->		
+        <div class="span9">		
+			<!-- Start Content Section -->
+                		  <!-- Contact Section -->		
 		  <div class="row-fluid">
 				<div class="span12">
 				    <h2>Contact Information</h2>				
@@ -109,6 +144,12 @@
 							<tr>
 								<td>&nbsp;</td><td>Daragh McDonald</td><td>&nbsp;</td>
 							</tr>																					
+							<tr>
+								<td>&nbsp;</td><td>Bernie O&apos;Reilly</td><td>&nbsp;</td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td><td>Brian Dunphy</td><td>&nbsp;</td>
+							</tr>																												
 							<tr>
 								<td><strong>Juvenile Badminton:</strong></td><td>Esther Mulvihill</td><td>086 1663248</td>
 							</tr>														
@@ -143,7 +184,8 @@
 						<a href="http://maps.google.ie/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Claremont+Stadium,+Commons+Road,+Navan&amp;aq=0&amp;oq=claremont+stadium&amp;sll=53.3834,-8.21775&amp;sspn=8.31492,26.784668&amp;ie=UTF8&amp;hq=&amp;hnear=Claremont+Stadium,+Commons+Rd,+Navan,+County+Meath&amp;t=m&amp;ll=53.648657,-6.694794&amp;spn=0.017806,0.036478&amp;z=14&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a>						
 					</small>
 				</div>
-		  </div>		  
+		  </div>	  
+			<!-- End Content Section -->	  
         </div><!--/span-->
       </div><!--/row-->
 	  
@@ -170,12 +212,29 @@
     <script src="./assets/js/bootstrap-collapse.js"></script>
     <script src="./assets/js/bootstrap-carousel.js"></script>
     <script src="./assets/js/bootstrap-typeahead.js"></script>
+	<script src="./assets/js/countdown.js"></script>	
 
     <!-- Auto load carousel to slide -->
     <script type="text/javascript">
 	$('.carousel').carousel({
   		interval: 4000
 	})
+	
+	var popoverOptions = {
+			  placement: 'left',
+			  html: 'true',
+              title: 'Committee Details',			  
+			  content: '<p>'
+					   +'<strong>Chairman:</strong><br>Dermot Crowley<br>086 3830660<br><br>'
+					   +'<strong>Secretary:</strong><br>Martin Sheridan<br>087 2669648<br><br>'
+					   +'<strong>Match Secretary:</strong><br>Joe Arnold<br>086 3648648<br><br>'					   					   
+					   +'<strong>Treasurer:</strong><br>Elaine Collins<br><br>'
+					   +'<strong>Other:</strong><br>Declan Sheridan<br>Daragh McDonald<br>Bernie O&apos;Reilly<br>Brian Dunphy<br><br>'
+					   +'<strong>Juvenile Badminton:</strong><br>Esther Mulvihill<br>086 1663248<br>'					   
+					   +'</p>'			  
+			};	
+	
+	$('#committeePopover').popover(popoverOptions);			
     </script>
 
     <!-- statcounter code -->
@@ -191,5 +250,24 @@
 	
     <!-- Twitter widgets javascript used in the follow and tweet buttons only needed once on page -->
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>	
+	
+    <script type="text/javascript">	
+		$(document).ready(function() {
+			var activeMenu = $("#Contact");		
+			if (!activeMenu.hasClass('active')) {
+				activeMenu.addClass('active');
+			}
+			
+			$("#countdown").countdown({
+				date: "2 september 2013 20:00:00",
+				format: "on"
+			},			
+			function() {
+				// callback function
+			});			
+						
+		} );		
+	</script>
+	
   </body>
 </html>
