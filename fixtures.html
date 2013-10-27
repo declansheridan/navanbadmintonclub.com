@@ -73,6 +73,21 @@
 	  </div>
 	</div>
 
+   <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/bootstrap-transition.js"></script>
+    <script src="./assets/js/bootstrap-alert.js"></script>
+    <script src="./assets/js/bootstrap-modal.js"></script>
+    <script src="./assets/js/bootstrap-dropdown.js"></script>
+    <script src="./assets/js/bootstrap-scrollspy.js"></script>
+    <script src="./assets/js/bootstrap-tab.js"></script>
+    <script src="./assets/js/bootstrap-tooltip.js"></script>
+    <script src="./assets/js/bootstrap-popover.js"></script>
+    <script src="./assets/js/bootstrap-button.js"></script>
+    <script src="./assets/js/bootstrap-collapse.js"></script>
+    <script src="./assets/js/bootstrap-carousel.js"></script>
+    <script src="./assets/js/bootstrap-typeahead.js"></script>
+		
     <div class="container-fluid">
       <div class="row-fluid">
         <div class="span3">
@@ -111,11 +126,43 @@
         </div><!--/span-->
         <div class="span9">		
 			<!-- Start Content Section -->
-                		  <div class="row-fluid">
-				<div class="span12">
-					<iframe width='950' height='1900' frameborder='0' src='https://docs.google.com/spreadsheet/pub?key=0AuSsBE1K9skddFJ5dVRnTVFQR2xMb0F5TTBiZmxjcmc&output=html'></iframe>
-				</div>
-		  </div>	  
+                	<div class="row-fluid">
+		<div class="span12">
+           <ul id="myTab" class="nav nav-tabs">
+              <li class="active"><a href="#calendar" data-toggle="tab">Calendar</a></li>
+              <li><a href="#byTeam" data-toggle="tab">By Team</a></li>
+            </ul>
+            <div id="myTabContent" class="tab-content">
+              <div class="tab-pane fade in active" id="calendar">
+				<a href="./assets/img/2013/FixturesCalendar.pdf">Click here, to download Calendar and Print PDF copy<a>
+			    <br><br>
+                <img src="./assets/img/2013/FixturesCalendar.JPG" alt="">
+              </div>
+              <div class="tab-pane fade" id="byTeam">
+				<a href="./assets/img/2013/FixturesByTeam.pdf">Click here, to download Team Fixtures and Print PDF copy<a>
+			   	<br><br>		  
+                <img src="./assets/img/2013/FixturesByTeam.JPG" alt="">
+              </div>
+            </div>
+		</div>
+	</div>
+	
+   <script type="text/javascript">	
+		$(document).ready(function() {
+			var url = document.location.toString();
+			if (url.match('#byTeam')) {	
+				$('#myTab a[href="#byTeam"]').tab('show'); // Select tab by name
+			} 
+			if (url.match('#calendar')) {
+				$('#myTab a[href="#calendar"]').tab('show'); // Select tab by name
+			} 
+
+			// Change hash for page-reload
+			$('.nav-tabs a').on('shown', function (e) {
+				window.location.hash = e.target.hash;
+			})			
+		} );		
+	</script>	  
 			<!-- End Content Section -->	  
         </div><!--/span-->
       </div><!--/row-->
@@ -129,22 +176,7 @@
 	 </div>
 		
     <!-- ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="./assets/js/jquery.js"></script>
-    <script src="./assets/js/bootstrap-transition.js"></script>
-    <script src="./assets/js/bootstrap-alert.js"></script>
-    <script src="./assets/js/bootstrap-modal.js"></script>
-    <script src="./assets/js/bootstrap-dropdown.js"></script>
-    <script src="./assets/js/bootstrap-scrollspy.js"></script>
-    <script src="./assets/js/bootstrap-tab.js"></script>
-    <script src="./assets/js/bootstrap-tooltip.js"></script>
-    <script src="./assets/js/bootstrap-popover.js"></script>
-    <script src="./assets/js/bootstrap-button.js"></script>
-    <script src="./assets/js/bootstrap-collapse.js"></script>
-    <script src="./assets/js/bootstrap-carousel.js"></script>
-    <script src="./assets/js/bootstrap-typeahead.js"></script>
-	<script src="./assets/js/countdown.js"></script>	
-
+ 
     <!-- Auto load carousel to slide -->
     <script type="text/javascript">
 	$('.carousel').carousel({
@@ -187,16 +219,7 @@
 			var activeMenu = $("#Fixtures");		
 			if (!activeMenu.hasClass('active')) {
 				activeMenu.addClass('active');
-			}
-			
-			$("#countdown").countdown({
-				date: "2 september 2013 20:00:00",
-				format: "on"
-			},			
-			function() {
-				// callback function
-			});			
-						
+			}			
 		} );		
 	</script>
 	
