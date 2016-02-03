@@ -8,19 +8,7 @@
         <lastmod>2013-01-01</lastmod>
     </url>
     <url>
-        <loc>http://navanbadmintonclub.com/contact.html</loc>
-        <lastmod>2012-01-01</lastmod>
-    </url>
-    <url>
-        <loc>http://navanbadmintonclub.com/fixtures.html</loc>
-        <lastmod>2012-01-01</lastmod>
-    </url>
-    <url>
-        <loc>http://navanbadmintonclub.com/gallery_2012.html</loc>
-        <lastmod>2012-01-01</lastmod>
-    </url>
-    <url>
-        <loc>http://navanbadmintonclub.com/juvenile.html</loc>
+        <loc>http://navanbadmintonclub.com/teams.html</loc>
         <lastmod>2012-01-01</lastmod>
     </url>
     <url>
@@ -28,7 +16,19 @@
         <lastmod>2012-01-01</lastmod>
     </url>
     <url>
-        <loc>http://navanbadmintonclub.com/teams.html</loc>
+        <loc>http://navanbadmintonclub.com/juvenile.html</loc>
+        <lastmod>2012-01-01</lastmod>
+    </url>
+    <url>
+        <loc>http://navanbadmintonclub.com/gallery_2012.html</loc>
+        <lastmod>2012-01-01</lastmod>
+    </url>
+    <url>
+        <loc>http://navanbadmintonclub.com/fixtures.html</loc>
+        <lastmod>2012-01-01</lastmod>
+    </url>
+    <url>
+        <loc>http://navanbadmintonclub.com/contact.html</loc>
         <lastmod>2012-01-01</lastmod>
     </url>
     <url>
@@ -104,10 +104,6 @@
         <lastmod>2013-08-29</lastmod>
     </url>
     <url>
-        <loc>http://navanbadmintonclub.com/news/2012-07-13.html</loc>
-        <lastmod>2013-07-13</lastmod>
-    </url>
-    <url>
         <loc>http://navanbadmintonclub.com/news/2013-07-13.html</loc>
         <lastmod>2013-07-13</lastmod>
     </url>
@@ -162,5 +158,9 @@
     <url>
         <loc>http://navanbadmintonclub.com/news/2012-08-10.html</loc>
         <lastmod>2012-08-10</lastmod>
+    </url>
+    <url>
+        <loc>http://navanbadmintonclub.com/news/2012-07-13.html</loc>
+        <lastmod>2012-07-13</lastmod>
     </url>
 </urlset>

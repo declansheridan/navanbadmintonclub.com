@@ -5,8 +5,8 @@
     <atom:link href="http://navanbadmintonclub.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>Navan Badminton Club Feed</description>
     <language>en-gb</language>
-    <pubDate>Wed, 3 Feb 2016 15:07:30 +0000</pubDate>
-    <lastBuildDate>Wed, 3 Feb 2016 15:07:30 +0000</lastBuildDate>
+    <pubDate>Wed, 3 Feb 2016 17:28:20 +0000</pubDate>
+    <lastBuildDate>Wed, 3 Feb 2016 17:28:20 +0000</lastBuildDate>
 
     <item>
       <title>Club back after xmas break, season so far</title>
@@ -153,14 +153,6 @@
     </item>
 
     <item>
-      <title>Some early details for next season 2012/2013.</title>
-      <link>http://navanbadmintonclub.com/news/2012-07-13.html</link>
-      <pubDate>Sat, 13 Jul 2013 00:00:00 +0100</pubDate>
-      <guid isPermaLink="false">news/2012-07-13.html</guid>
-      <description></description>
-    </item>
-
-    <item>
       <title>AGM and 600 Club Draw held, Season review, Preparation for 2013/2014 season.</title>
       <link>http://navanbadmintonclub.com/news/2013-07-13.html</link>
       <pubDate>Sat, 13 Jul 2013 00:00:00 +0100</pubDate>
@@ -269,6 +261,14 @@
       <link>http://navanbadmintonclub.com/news/2012-08-10.html</link>
       <pubDate>Fri, 10 Aug 2012 00:00:00 +0100</pubDate>
       <guid isPermaLink="false">news/2012-08-10.html</guid>
+      <description></description>
+    </item>
+
+    <item>
+      <title>Some early details for next season 2012/2013.</title>
+      <link>http://navanbadmintonclub.com/news/2012-07-13.html</link>
+      <pubDate>Fri, 13 Jul 2012 00:00:00 +0100</pubDate>
+      <guid isPermaLink="false">news/2012-07-13.html</guid>
       <description></description>
     </item>
   </channel>
