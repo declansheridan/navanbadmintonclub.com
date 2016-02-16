@@ -5,8 +5,16 @@
     <atom:link href="http://navanbadmintonclub.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>Navan Badminton Club Feed</description>
     <language>en-gb</language>
-    <pubDate>Wed, 3 Feb 2016 17:28:20 +0000</pubDate>
-    <lastBuildDate>Wed, 3 Feb 2016 17:28:20 +0000</lastBuildDate>
+    <pubDate>Tue, 16 Feb 2016 11:26:38 +0000</pubDate>
+    <lastBuildDate>Tue, 16 Feb 2016 11:26:38 +0000</lastBuildDate>
+
+    <item>
+      <title>Meath Championships 2016, Season so far</title>
+      <link>http://navanbadmintonclub.com/news/2016-02-15.html</link>
+      <pubDate>Mon, 15 Feb 2016 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">news/2016-02-15.html</guid>
+      <description></description>
+    </item>
 
     <item>
       <title>Club back after xmas break, season so far</title>
