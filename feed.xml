@@ -5,8 +5,16 @@
     <atom:link href="http://navanbadmintonclub.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>Navan Badminton Club Feed</description>
     <language>en-gb</language>
-    <pubDate>Tue, 31 May 2016 18:54:22 +0100</pubDate>
-    <lastBuildDate>Tue, 31 May 2016 18:54:22 +0100</lastBuildDate>
+    <pubDate>Tue, 30 Aug 2016 23:00:14 +0100</pubDate>
+    <lastBuildDate>Tue, 30 Aug 2016 23:00:14 +0100</lastBuildDate>
+
+    <item>
+      <title>New season getting ready to kick off!! </title>
+      <link>http://navanbadmintonclub.com/news/2016-08-30.html</link>
+      <pubDate>Tue, 30 Aug 2016 00:00:00 +0100</pubDate>
+      <guid isPermaLink="false">news/2016-08-30.html</guid>
+      <description></description>
+    </item>
 
     <item>
       <title>Season finishes on high note!!</title>
