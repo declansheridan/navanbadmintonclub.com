@@ -1,10 +1,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>http://navanbadmintonclub.com/gallery_2014.html</loc>
+        <loc>http://navanbadmintonclub.com/gallery.html</loc>
         <lastmod>2014-01-01</lastmod>
     </url>
     <url>
-        <loc>http://navanbadmintonclub.com/gallery.html</loc>
+        <loc>http://navanbadmintonclub.com/gallery_2014.html</loc>
         <lastmod>2014-01-01</lastmod>
     </url>
     <url>
@@ -12,19 +12,7 @@
         <lastmod>2013-01-01</lastmod>
     </url>
     <url>
-        <loc>http://navanbadmintonclub.com/teams.html</loc>
-        <lastmod>2012-01-01</lastmod>
-    </url>
-    <url>
-        <loc>http://navanbadmintonclub.com/links.html</loc>
-        <lastmod>2012-01-01</lastmod>
-    </url>
-    <url>
-        <loc>http://navanbadmintonclub.com/juvenile.html</loc>
-        <lastmod>2012-01-01</lastmod>
-    </url>
-    <url>
-        <loc>http://navanbadmintonclub.com/gallery_2012.html</loc>
+        <loc>http://navanbadmintonclub.com/contact.html</loc>
         <lastmod>2012-01-01</lastmod>
     </url>
     <url>
@@ -32,8 +20,24 @@
         <lastmod>2012-01-01</lastmod>
     </url>
     <url>
-        <loc>http://navanbadmintonclub.com/contact.html</loc>
+        <loc>http://navanbadmintonclub.com/gallery_2012.html</loc>
         <lastmod>2012-01-01</lastmod>
+    </url>
+    <url>
+        <loc>http://navanbadmintonclub.com/juvenile.html</loc>
+        <lastmod>2012-01-01</lastmod>
+    </url>
+    <url>
+        <loc>http://navanbadmintonclub.com/links.html</loc>
+        <lastmod>2012-01-01</lastmod>
+    </url>
+    <url>
+        <loc>http://navanbadmintonclub.com/teams.html</loc>
+        <lastmod>2012-01-01</lastmod>
+    </url>
+    <url>
+        <loc>http://navanbadmintonclub.com/news/2018-01-13.html</loc>
+        <lastmod>2018-01-13</lastmod>
     </url>
     <url>
         <loc>http://navanbadmintonclub.com/news/2017-08-25.html</loc>

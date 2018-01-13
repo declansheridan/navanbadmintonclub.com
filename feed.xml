@@ -5,8 +5,16 @@
     <atom:link href="http://navanbadmintonclub.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>Navan Badminton Club Feed</description>
     <language>en-gb</language>
-    <pubDate>Fri, 25 Aug 2017 21:14:09 +0100</pubDate>
-    <lastBuildDate>Fri, 25 Aug 2017 21:14:09 +0100</lastBuildDate>
+    <pubDate>Sat, 13 Jan 2018 22:09:34 +0000</pubDate>
+    <lastBuildDate>Sat, 13 Jan 2018 22:09:34 +0000</lastBuildDate>
+
+    <item>
+      <title>Season continues, Fundraiser, and Meath Championships    </title>
+      <link>http://navanbadmintonclub.com/news/2018-01-13.html</link>
+      <pubDate>Sat, 13 Jan 2018 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">news/2018-01-13.html</guid>
+      <description></description>
+    </item>
 
     <item>
       <title>Juvenile Club returns for 2017/2018 season ...    </title>
