@@ -5,8 +5,16 @@
     <atom:link href="http://navanbadmintonclub.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>Navan Badminton Club Feed</description>
     <language>en-gb</language>
-    <pubDate>Sun, 18 Nov 2018 23:05:03 +0000</pubDate>
-    <lastBuildDate>Sun, 18 Nov 2018 23:05:03 +0000</lastBuildDate>
+    <pubDate>Wed, 30 Oct 2019 22:00:11 +0000</pubDate>
+    <lastBuildDate>Wed, 30 Oct 2019 22:00:11 +0000</lastBuildDate>
+
+    <item>
+      <title>Season 2019 / 2020 in full swing.     </title>
+      <link>http://navanbadmintonclub.com/news/2019-10-30.html</link>
+      <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">news/2019-10-30.html</guid>
+      <description></description>
+    </item>
 
     <item>
       <title>Season 2018 / 2019 in full swing.     </title>
