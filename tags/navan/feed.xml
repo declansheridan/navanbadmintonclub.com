@@ -1,0 +1,54 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Navan Badminton Club</title>
+      <link>https://navanbadmintonclub.com/news</link>
+      <description>Welcome to Navan Badminton Club located at Claremont Stadium in Navan, Co. Meath, Ireland. Club nights every Monday and Wednesday during the season which runs from September to April. Club caters for Adults and Juveniles of all standards from beginner to advanced.</description>
+      <language>en-ie</language>
+      <managingEditor>badminton@navanbadmintonclub.com (Navan Badminton Club)</managingEditor>
+      <webMaster>badminton@navanbadmintonclub.com (Navan Badminton Club)</webMaster>
+      <lastBuildDate>Wed, 12 Jan 2022 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://navanbadmintonclub.com/tags/navan/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://navanbadmintonclub.com/news/Club night - 16th Jan</guid>
+    <title>Club night - 12th Jan</title>
+    <link>https://navanbadmintonclub.com/news/Club night - 16th Jan</link>
+    undefined
+    <pubDate>Wed, 12 Jan 2022 00:00:00 GMT</pubDate>
+    <author>badminton@navanbadmintonclub.com (Navan Badminton Club)</author>
+    <category>navan</category><category>badminton</category><category>club night</category>
+  </item>
+
+  <item>
+    <guid>https://navanbadmintonclub.com/news/Tournament - Thank You</guid>
+    <title>Thank you - club tournament</title>
+    <link>https://navanbadmintonclub.com/news/Tournament - Thank You</link>
+    undefined
+    <pubDate>Sat, 08 Jan 2022 00:00:00 GMT</pubDate>
+    <author>badminton@navanbadmintonclub.com (Navan Badminton Club)</author>
+    <category>badminton</category><category>navan</category><category>tournament</category>
+  </item>
+
+  <item>
+    <guid>https://navanbadmintonclub.com/news/Club night - 29th Nov</guid>
+    <title>Club night - 29th Nov</title>
+    <link>https://navanbadmintonclub.com/news/Club night - 29th Nov</link>
+    undefined
+    <pubDate>Mon, 29 Nov 2021 00:00:00 GMT</pubDate>
+    <author>badminton@navanbadmintonclub.com (Navan Badminton Club)</author>
+    <category>navan</category><category>badminton</category><category>club night</category>
+  </item>
+
+  <item>
+    <guid>https://navanbadmintonclub.com/news/Club night - 17th Nov</guid>
+    <title>Club night - 17th Nov</title>
+    <link>https://navanbadmintonclub.com/news/Club night - 17th Nov</link>
+    undefined
+    <pubDate>Wed, 17 Nov 2021 00:00:00 GMT</pubDate>
+    <author>badminton@navanbadmintonclub.com (Navan Badminton Club)</author>
+    <category>navan</category><category>badminton</category><category>club night</category>
+  </item>
+
+    </channel>
+  </rss>
