@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Navan Badminton Club</title>
+      <link>https://navanbadmintonclub.com/news</link>
+      <description>Welcome to Navan Badminton Club located at Claremont Stadium in Navan, Co. Meath, Ireland. Club nights every Monday and Wednesday during the season which runs from September to April. Club caters for Adults and Juveniles of all standards from beginner to advanced.</description>
+      <language>en-ie</language>
+      <managingEditor>badminton@navanbadmintonclub.com (Navan Badminton Club)</managingEditor>
+      <webMaster>badminton@navanbadmintonclub.com (Navan Badminton Club)</webMaster>
+      <lastBuildDate>Wed, 19 Jun 2024 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://navanbadmintonclub.com/tags/claremont-stadium/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://navanbadmintonclub.com/news/2024-06-19-grab-your-rackets-its-time-to-shine-bright</guid>
+    <title>🌟 Grab Your Rackets, It&#39;s Time to Shine Bright! 🌟</title>
+    <link>https://navanbadmintonclub.com/news/2024-06-19-grab-your-rackets-its-time-to-shine-bright</link>
+    undefined
+    <pubDate>Wed, 19 Jun 2024 00:00:00 GMT</pubDate>
+    <author>badminton@navanbadmintonclub.com (Navan Badminton Club)</author>
+    <category>badminton</category><category>Summer Club</category><category>Claremont Stadium</category><category>Navan BC</category><category>sports</category><category>community</category>
+  </item>
+
+    </channel>
+  </rss>
