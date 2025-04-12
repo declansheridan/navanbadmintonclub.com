@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Navan Badminton Club</title>
+      <link>https://navanbadmintonclub.com/news</link>
+      <description>Welcome to Navan Badminton Club located at Claremont Stadium in Navan, Co. Meath, Ireland. Club nights every Monday and Wednesday during the season which runs from September to April. Club caters for Adults and Juveniles of all standards from beginner to advanced.</description>
+      <language>en-ie</language>
+      <managingEditor>badminton@navanbadmintonclub.com (Navan Badminton Club)</managingEditor>
+      <webMaster>badminton@navanbadmintonclub.com (Navan Badminton Club)</webMaster>
+      <lastBuildDate>Sun, 06 Apr 2025 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://navanbadmintonclub.com/tags/quarter-finals/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://navanbadmintonclub.com/news/2025-04-06-week-24-results</guid>
+    <title>Week 24 Results: Cup Semi-Finals and League Quarter-Finals</title>
+    <link>https://navanbadmintonclub.com/news/2025-04-06-week-24-results</link>
+    <description>A week of exciting Cup semi-finals and league quarter-finals with impressive performances and hard-fought matches. Check out the highlights and results!</description>
+    <pubDate>Sun, 06 Apr 2025 00:00:00 GMT</pubDate>
+    <author>badminton@navanbadmintonclub.com (Navan Badminton Club)</author>
+    <category>sports</category><category>badminton</category><category>results</category><category>cup semi-finals</category><category>quarter-finals</category>
+  </item>
+
+    </channel>
+  </rss>
