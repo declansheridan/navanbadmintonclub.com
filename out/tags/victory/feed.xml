@@ -1,0 +1,54 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Navan Badminton Club</title>
+      <link>https://navanbadmintonclub.com/news</link>
+      <description>Welcome to Navan Badminton Club located at Claremont Stadium in Navan, Co. Meath, Ireland. Club nights every Monday and Wednesday during the season which runs from September to April. Club caters for Adults and Juveniles of all standards from beginner to advanced.</description>
+      <language>en-ie</language>
+      <managingEditor>badminton@navanbadmintonclub.com (Navan Badminton Club)</managingEditor>
+      <webMaster>badminton@navanbadmintonclub.com (Navan Badminton Club)</webMaster>
+      <lastBuildDate>Wed, 12 Mar 2025 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://navanbadmintonclub.com/tags/victory/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://navanbadmintonclub.com/news/2025-03-12-amazing-week-for-navan-badminton-club</guid>
+    <title>Amazing Week for Navan Badminton Club</title>
+    <link>https://navanbadmintonclub.com/news/2025-03-12-amazing-week-for-navan-badminton-club</link>
+    <description>Navan Badminton Club celebrates a clean sweep with three Mixed League Final wins. Congratulations to all players and supporters!</description>
+    <pubDate>Wed, 12 Mar 2025 00:00:00 GMT</pubDate>
+    <author>badminton@navanbadmintonclub.com (Navan Badminton Club)</author>
+    <category>badminton</category><category>Navan Badminton Club</category><category>league finals</category><category>victory</category><category>Meath</category><category>Navan</category>
+  </item>
+
+  <item>
+    <guid>https://navanbadmintonclub.com/news/2024-04-18-navan-badminton-club-victory-celebration</guid>
+    <title>Grade 6 Mens win the league</title>
+    <link>https://navanbadmintonclub.com/news/2024-04-18-navan-badminton-club-victory-celebration</link>
+    undefined
+    <pubDate>Thu, 18 Apr 2024 00:00:00 GMT</pubDate>
+    <author>badminton@navanbadmintonclub.com (Navan Badminton Club)</author>
+    <category>badminton</category><category>victory</category><category>sports</category>
+  </item>
+
+  <item>
+    <guid>https://navanbadmintonclub.com/news/2024-04-16-league-final-recap</guid>
+    <title>Senior Ladies League Final Recap</title>
+    <link>https://navanbadmintonclub.com/news/2024-04-16-league-final-recap</link>
+    undefined
+    <pubDate>Tue, 16 Apr 2024 00:00:00 GMT</pubDate>
+    <author>badminton@navanbadmintonclub.com (Navan Badminton Club)</author>
+    <category>sports</category><category>league</category><category>final</category><category>dedication</category><category>victory</category>
+  </item>
+
+  <item>
+    <guid>https://navanbadmintonclub.com/news/2024-04-10-league-final-victory-announcement</guid>
+    <title>League Final Victory Announcement</title>
+    <link>https://navanbadmintonclub.com/news/2024-04-10-league-final-victory-announcement</link>
+    undefined
+    <pubDate>Wed, 10 Apr 2024 00:00:00 GMT</pubDate>
+    <author>badminton@navanbadmintonclub.com (Navan Badminton Club)</author>
+    <category>sports</category><category>victory</category><category>league</category><category>announcement</category>
+  </item>
+
+    </channel>
+  </rss>
