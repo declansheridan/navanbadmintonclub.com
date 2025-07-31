@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Navan Badminton Club</title>
+      <link>https://navanbadmintonclub.com/news</link>
+      <description>Welcome to Navan Badminton Club located at Claremont Stadium in Navan, Co. Meath, Ireland. Club nights every Monday and Wednesday during the season which runs from September to April. Club caters for Adults and Juveniles of all standards from beginner to advanced.</description>
+      <language>en-ie</language>
+      <managingEditor>badminton@navanbadmintonclub.com (Navan Badminton Club)</managingEditor>
+      <webMaster>badminton@navanbadmintonclub.com (Navan Badminton Club)</webMaster>
+      <lastBuildDate>Thu, 06 Mar 2025 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://navanbadmintonclub.com/tags/competitions/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://navanbadmintonclub.com/news/2025-03-06-thursday-club-night-exciting-badminton-matches</guid>
+    <title>Thursday Club Night: Exciting Badminton Matches</title>
+    <link>https://navanbadmintonclub.com/news/2025-03-06-thursday-club-night-exciting-badminton-matches</link>
+    <description>Join us for an intense night of badminton matches at Thursday Club Night. Matches include Grade 5 Mens, Grade 5 Ladies, and Grade 7 Mixed teams. Best of luck to our teams in the semi-finals!</description>
+    <pubDate>Thu, 06 Mar 2025 00:00:00 GMT</pubDate>
+    <author>badminton@navanbadmintonclub.com (Navan Badminton Club)</author>
+    <category>Badminton</category><category>Club Night</category><category>Matches</category><category>Competitions</category>
+  </item>
+
+    </channel>
+  </rss>
