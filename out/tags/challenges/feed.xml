@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Navan Badminton Club</title>
+      <link>https://navanbadmintonclub.com/news</link>
+      <description>Welcome to Navan Badminton Club located at Claremont Stadium in Navan, Co. Meath, Ireland. Club nights every Monday and Wednesday during the season which runs from September to April. Club caters for Adults and Juveniles of all standards from beginner to advanced.</description>
+      <language>en-ie</language>
+      <managingEditor>badminton@navanbadmintonclub.com (Navan Badminton Club)</managingEditor>
+      <webMaster>badminton@navanbadmintonclub.com (Navan Badminton Club)</webMaster>
+      <lastBuildDate>Sat, 26 Oct 2024 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://navanbadmintonclub.com/tags/challenges/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://navanbadmintonclub.com/news/2024-10-26-week-2-results</guid>
+    <title>Week 2 Results: Wins, Losses, and Learning Experiences</title>
+    <link>https://navanbadmintonclub.com/news/2024-10-26-week-2-results</link>
+    <description>Recap of Week 2 with impressive victories from our Grade 3 and Grade 7 Ladies teams, and challenging matches for our Grade 5 Mens and Ladies teams.</description>
+    <pubDate>Sat, 26 Oct 2024 00:00:00 GMT</pubDate>
+    <author>badminton@navanbadmintonclub.com (Navan Badminton Club)</author>
+    <category>sports</category><category>weekly update</category><category>team performance</category><category>victories</category><category>challenges</category>
+  </item>
+
+    </channel>
+  </rss>

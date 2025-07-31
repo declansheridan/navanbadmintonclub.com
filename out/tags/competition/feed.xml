@@ -1,0 +1,74 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Navan Badminton Club</title>
+      <link>https://navanbadmintonclub.com/news</link>
+      <description>Welcome to Navan Badminton Club located at Claremont Stadium in Navan, Co. Meath, Ireland. Club nights every Monday and Wednesday during the season which runs from September to April. Club caters for Adults and Juveniles of all standards from beginner to advanced.</description>
+      <language>en-ie</language>
+      <managingEditor>badminton@navanbadmintonclub.com (Navan Badminton Club)</managingEditor>
+      <webMaster>badminton@navanbadmintonclub.com (Navan Badminton Club)</webMaster>
+      <lastBuildDate>Wed, 26 Mar 2025 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://navanbadmintonclub.com/tags/competition/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://navanbadmintonclub.com/news/2025-03-26-wednesday-club-night</guid>
+    <title>Wednesday Club Night: Join the Fun!</title>
+    <link>https://navanbadmintonclub.com/news/2025-03-26-wednesday-club-night</link>
+    <description>Join us for Wednesday Club Night with exciting badminton matches and open courts for practice. Fun for all ages and skill levels.</description>
+    <pubDate>Wed, 26 Mar 2025 00:00:00 GMT</pubDate>
+    <author>badminton@navanbadmintonclub.com (Navan Badminton Club)</author>
+    <category>Badminton</category><category>Club Night</category><category>Sports</category><category>Fun</category><category>Competition</category>
+  </item>
+
+  <item>
+    <guid>https://navanbadmintonclub.com/news/2025-02-26-wednesday-club-night</guid>
+    <title>Wednesday Club Night: Badminton Fun</title>
+    <link>https://navanbadmintonclub.com/news/2025-02-26-wednesday-club-night</link>
+    <description>Join us for a night of intense badminton action at Wednesday Club Night. Open courts, exciting matches, and fun for all!</description>
+    <pubDate>Wed, 26 Feb 2025 00:00:00 GMT</pubDate>
+    <author>badminton@navanbadmintonclub.com (Navan Badminton Club)</author>
+    <category>Badminton</category><category>Club Night</category><category>Sports</category><category>Fun</category><category>Competition</category>
+  </item>
+
+  <item>
+    <guid>https://navanbadmintonclub.com/news/2025-01-29-wednesday-club-night-smash-rally</guid>
+    <title>Wednesday Club Night: Smash &amp; Rally!</title>
+    <link>https://navanbadmintonclub.com/news/2025-01-29-wednesday-club-night-smash-rally</link>
+    <description>Join us for a night of exciting badminton matches and fun surprises at our Wednesday Club Night.</description>
+    <pubDate>Wed, 29 Jan 2025 00:00:00 GMT</pubDate>
+    <author>badminton@navanbadmintonclub.com (Navan Badminton Club)</author>
+    <category>Badminton</category><category>Club Night</category><category>Competition</category><category>Sports</category>
+  </item>
+
+  <item>
+    <guid>https://navanbadmintonclub.com/news/2024-12-01-leinster-cac-graded-individuals-highlights</guid>
+    <title>Weekend Highlights from the Leinster CAC Graded Individuals</title>
+    <link>https://navanbadmintonclub.com/news/2024-12-01-leinster-cac-graded-individuals-highlights</link>
+    <description>Highlights from an exciting weekend at the Leinster CAC Graded Individuals where Navan Badminton Club members showcased their skills.</description>
+    <pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate>
+    <author>badminton@navanbadmintonclub.com (Navan Badminton Club)</author>
+    <category>Badminton</category><category>Leinster CAC</category><category>Sports</category><category>Competition</category><category>Navan Badminton Club</category>
+  </item>
+
+  <item>
+    <guid>https://navanbadmintonclub.com/news/2024-10-16-meath-leagues-return-with-exciting-matches</guid>
+    <title>Meath Leagues Return with Exciting Matches</title>
+    <link>https://navanbadmintonclub.com/news/2024-10-16-meath-leagues-return-with-exciting-matches</link>
+    <description>The Meath Leagues are back with matches on 16th October 2024. Support our teams as they aim for victory!</description>
+    <pubDate>Wed, 16 Oct 2024 00:00:00 GMT</pubDate>
+    <author>badminton@navanbadmintonclub.com (Navan Badminton Club)</author>
+    <category>Meath Leagues</category><category>Badminton</category><category>Competition</category>
+  </item>
+
+  <item>
+    <guid>https://navanbadmintonclub.com/news/2024-04-03-wednesday-badminton-club-night</guid>
+    <title>Wednesday Badminton Club Night</title>
+    <link>https://navanbadmintonclub.com/news/2024-04-03-wednesday-badminton-club-night</link>
+    undefined
+    <pubDate>Wed, 03 Apr 2024 00:00:00 GMT</pubDate>
+    <author>badminton@navanbadmintonclub.com (Navan Badminton Club)</author>
+    <category>badminton</category><category>sports</category><category>club night</category><category>competition</category>
+  </item>
+
+    </channel>
+  </rss>

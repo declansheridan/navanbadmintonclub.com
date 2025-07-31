@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Navan Badminton Club</title>
+      <link>https://navanbadmintonclub.com/news</link>
+      <description>Welcome to Navan Badminton Club located at Claremont Stadium in Navan, Co. Meath, Ireland. Club nights every Monday and Wednesday during the season which runs from September to April. Club caters for Adults and Juveniles of all standards from beginner to advanced.</description>
+      <language>en-ie</language>
+      <managingEditor>badminton@navanbadmintonclub.com (Navan Badminton Club)</managingEditor>
+      <webMaster>badminton@navanbadmintonclub.com (Navan Badminton Club)</webMaster>
+      <lastBuildDate>Mon, 14 Oct 2024 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://navanbadmintonclub.com/tags/meathleagues/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://navanbadmintonclub.com/news/2024-10-14-play-at-claremont-stadium-tonight</guid>
+    <title>🏸 Play at Claremont Stadium Tonight!</title>
+    <link>https://navanbadmintonclub.com/news/2024-10-14-play-at-claremont-stadium-tonight</link>
+    <description>Join us at Claremont Stadium as the Meath Leagues return this week. Practice your game with all courts open and everyone welcome!</description>
+    <pubDate>Mon, 14 Oct 2024 00:00:00 GMT</pubDate>
+    <author>badminton@navanbadmintonclub.com (Navan Badminton Club)</author>
+    <category>GameOn</category><category>MeathLeagues</category><category>Badminton</category>
+  </item>
+
+    </channel>
+  </rss>

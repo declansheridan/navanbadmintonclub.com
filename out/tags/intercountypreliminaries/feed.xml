@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Navan Badminton Club</title>
+      <link>https://navanbadmintonclub.com/news</link>
+      <description>Welcome to Navan Badminton Club located at Claremont Stadium in Navan, Co. Meath, Ireland. Club nights every Monday and Wednesday during the season which runs from September to April. Club caters for Adults and Juveniles of all standards from beginner to advanced.</description>
+      <language>en-ie</language>
+      <managingEditor>badminton@navanbadmintonclub.com (Navan Badminton Club)</managingEditor>
+      <webMaster>badminton@navanbadmintonclub.com (Navan Badminton Club)</webMaster>
+      <lastBuildDate>Fri, 31 Jan 2025 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://navanbadmintonclub.com/tags/intercountypreliminaries/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://navanbadmintonclub.com/news/2025-01-31-leinster-cac-preliminaries-navan-badminton-club</guid>
+    <title>Leinster CAC Inter County Preliminaries: Navan Badminton Club Represented</title>
+    <link>https://navanbadmintonclub.com/news/2025-01-31-leinster-cac-preliminaries-navan-badminton-club</link>
+    <description>Navan Badminton Club members compete in the Leinster CAC Inter County Preliminaries this Sunday, representing Meath in Grades 2, 4, and 6.</description>
+    <pubDate>Fri, 31 Jan 2025 00:00:00 GMT</pubDate>
+    <author>badminton@navanbadmintonclub.com (Navan Badminton Club)</author>
+    <category>NavanBadmintonClub</category><category>LeinsterCAC</category><category>InterCountyPreliminaries</category><category>AnMhíAbú</category>
+  </item>
+
+    </channel>
+  </rss>
