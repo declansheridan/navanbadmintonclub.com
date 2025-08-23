@@ -40,25 +40,5 @@
     <category>fixtures</category><category>sports</category><category>badminton</category><category>league</category><category>cup ties</category><category>Navan</category><category>Meath</category>
   </item>
 
-  <item>
-    <guid>https://navanbadmintonclub.com/news/2024-04-16-league-final-recap</guid>
-    <title>Senior Ladies League Final Recap</title>
-    <link>https://navanbadmintonclub.com/news/2024-04-16-league-final-recap</link>
-    undefined
-    <pubDate>Tue, 16 Apr 2024 00:00:00 GMT</pubDate>
-    <author>badminton@navanbadmintonclub.com (Navan Badminton Club)</author>
-    <category>sports</category><category>league</category><category>final</category><category>dedication</category><category>victory</category>
-  </item>
-
-  <item>
-    <guid>https://navanbadmintonclub.com/news/2024-04-10-league-final-victory-announcement</guid>
-    <title>League Final Victory Announcement</title>
-    <link>https://navanbadmintonclub.com/news/2024-04-10-league-final-victory-announcement</link>
-    undefined
-    <pubDate>Wed, 10 Apr 2024 00:00:00 GMT</pubDate>
-    <author>badminton@navanbadmintonclub.com (Navan Badminton Club)</author>
-    <category>sports</category><category>victory</category><category>league</category><category>announcement</category>
-  </item>
-
     </channel>
   </rss>
