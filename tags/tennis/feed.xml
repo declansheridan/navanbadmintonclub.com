@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Navan Badminton Club</title>
+      <link>https://navanbadmintonclub.com/news</link>
+      <description>Welcome to Navan Badminton Club located at Claremont Stadium in Navan, Co. Meath, Ireland. Club nights every Monday and Wednesday during the season which runs from September to April. Club caters for Adults and Juveniles of all standards from beginner to advanced.</description>
+      <language>en-ie</language>
+      <managingEditor>badminton@navanbadmintonclub.com (Navan Badminton Club)</managingEditor>
+      <webMaster>badminton@navanbadmintonclub.com (Navan Badminton Club)</webMaster>
+      <lastBuildDate>Wed, 10 Sep 2025 18:41:00 GMT</lastBuildDate>
+      <atom:link href="https://navanbadmintonclub.com/tags/tennis/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://navanbadmintonclub.com/news/2025-09-10-wednesday-club-night-back-again</guid>
+    <title>Wednesday Club Night - Back Again!</title>
+    <link>https://navanbadmintonclub.com/news/2025-09-10-wednesday-club-night-back-again</link>
+    <description>Join us for another exciting Wednesday Club Night at Claremont Stadium, where we&#39;re serving up more fun and action on the courts than Ireland did against Armenia on the field.</description>
+    <pubDate>Wed, 10 Sep 2025 18:41:00 GMT</pubDate>
+    <author>badminton@navanbadmintonclub.com (Navan Badminton Club)</author>
+    <category>Club Night</category><category>Entertainment</category><category>Tennis</category><category>Sports</category><category>Fun</category>
+  </item>
+
+    </channel>
+  </rss>
