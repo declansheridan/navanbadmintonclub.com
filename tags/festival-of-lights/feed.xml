@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Navan Badminton Club</title>
+      <link>https://navanbadmintonclub.com/news</link>
+      <description>Welcome to Navan Badminton Club located at Claremont Stadium in Navan, Co. Meath, Ireland. Club nights every Monday and Wednesday during the season which runs from September to April. Club caters for Adults and Juveniles of all standards from beginner to advanced.</description>
+      <language>en-ie</language>
+      <managingEditor>badminton@navanbadmintonclub.com (Navan Badminton Club)</managingEditor>
+      <webMaster>badminton@navanbadmintonclub.com (Navan Badminton Club)</webMaster>
+      <lastBuildDate>Mon, 20 Oct 2025 23:27:00 GMT</lastBuildDate>
+      <atom:link href="https://navanbadmintonclub.com/tags/festival-of-lights/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://navanbadmintonclub.com/news/2025-10-20-happy-diwali-celebration-navan-badminton-club</guid>
+    <title>Happy Diwali Celebration at Navan Badminton Club</title>
+    <link>https://navanbadmintonclub.com/news/2025-10-20-happy-diwali-celebration-navan-badminton-club</link>
+    <description>Join Navan Badminton Club in celebrating Diwali, the festival of lights. Embrace the joy, diversity, and community spirit that make our club special.</description>
+    <pubDate>Mon, 20 Oct 2025 23:27:00 GMT</pubDate>
+    <author>badminton@navanbadmintonclub.com (Navan Badminton Club)</author>
+    <category>Diwali</category><category>Festival of Lights</category><category>Community</category><category>Diversity</category>
+  </item>
+
+    </channel>
+  </rss>
