@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Navan Badminton Club</title>
+      <link>https://navanbadmintonclub.com/news</link>
+      <description>Welcome to Navan Badminton Club located at Claremont Stadium in Navan, Co. Meath, Ireland. Club nights every Monday and Wednesday during the season which runs from September to April. Club caters for Adults and Juveniles of all standards from beginner to advanced.</description>
+      <language>en-ie</language>
+      <managingEditor>badminton@navanbadmintonclub.com (Navan Badminton Club)</managingEditor>
+      <webMaster>badminton@navanbadmintonclub.com (Navan Badminton Club)</webMaster>
+      <lastBuildDate>Fri, 24 Oct 2025 22:56:00 GMT</lastBuildDate>
+      <atom:link href="https://navanbadmintonclub.com/tags/irish-life-dublin-marathon/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://navanbadmintonclub.com/news/2025-10-24-shout-out-marathon-runners</guid>
+    <title>Shout-out to Our Marathon Runners</title>
+    <link>https://navanbadmintonclub.com/news/2025-10-24-shout-out-marathon-runners</link>
+    <description>Celebrating Kevin, Rachel, and Colm as they run the Irish Life Dublin Marathon. Best of luck!</description>
+    <pubDate>Fri, 24 Oct 2025 22:56:00 GMT</pubDate>
+    <author>badminton@navanbadmintonclub.com (Navan Badminton Club)</author>
+    <category>Marathon</category><category>Irish Life Dublin Marathon</category><category>Running</category><category>Club Members</category>
+  </item>
+
+    </channel>
+  </rss>
