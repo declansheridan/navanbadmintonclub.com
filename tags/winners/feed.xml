@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Navan Badminton Club</title>
+      <link>https://navanbadmintonclub.com/news</link>
+      <description>Welcome to Navan Badminton Club located at Claremont Stadium in Navan, Co. Meath, Ireland. Club nights every Monday and Wednesday during the season which runs from September to April. Club caters for Adults and Juveniles of all standards from beginner to advanced.</description>
+      <language>en-ie</language>
+      <managingEditor>badminton@navanbadmintonclub.com (Navan Badminton Club)</managingEditor>
+      <webMaster>badminton@navanbadmintonclub.com (Navan Badminton Club)</webMaster>
+      <lastBuildDate>Mon, 15 Dec 2025 21:59:00 GMT</lastBuildDate>
+      <atom:link href="https://navanbadmintonclub.com/tags/winners/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://navanbadmintonclub.com/news/2025-12-15-navan-badminton-club-championships-2025</guid>
+    <title>Navan Badminton Club Shines at Meath and Westmeath Championships 2025</title>
+    <link>https://navanbadmintonclub.com/news/2025-12-15-navan-badminton-club-championships-2025</link>
+    <description>Navan Badminton Club celebrates a remarkable achievement with seven gold and three silver medals across the Meath and Westmeath Championships 2025.</description>
+    <pubDate>Mon, 15 Dec 2025 21:59:00 GMT</pubDate>
+    <author>badminton@navanbadmintonclub.com (Navan Badminton Club)</author>
+    <category>Badminton</category><category>Championships</category><category>Navan</category><category>Meath</category><category>Westmeath</category><category>Winners</category>
+  </item>
+
+    </channel>
+  </rss>
