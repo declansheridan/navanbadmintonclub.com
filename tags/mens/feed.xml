@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Navan Badminton Club</title>
+      <link>https://navanbadmintonclub.com/news</link>
+      <description>Welcome to Navan Badminton Club located at Claremont Stadium in Navan, Co. Meath, Ireland. Club nights every Monday and Wednesday during the season which runs from September to April. Club caters for Adults and Juveniles of all standards from beginner to advanced.</description>
+      <language>en-ie</language>
+      <managingEditor>badminton@navanbadmintonclub.com (Navan Badminton Club)</managingEditor>
+      <webMaster>badminton@navanbadmintonclub.com (Navan Badminton Club)</webMaster>
+      <lastBuildDate>Sun, 11 Jan 2026 10:54:00 GMT</lastBuildDate>
+      <atom:link href="https://navanbadmintonclub.com/tags/mens/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://navanbadmintonclub.com/news/2026-01-11-unbeaten-start-to-2026-2-wins-3-draws-big-week-ahead</guid>
+    <title>Unbeaten Start to 2026: 2 Wins &amp; 3 Draws in a Big Week</title>
+    <link>https://navanbadmintonclub.com/news/2026-01-11-unbeaten-start-to-2026-2-wins-3-draws-big-week-ahead</link>
+    <description>An unbeaten start to 2026 with 2 wins and 3 draws across five matches, and a huge week ahead with at least 12 fixtures including Cup action starting Sunday.</description>
+    <pubDate>Sun, 11 Jan 2026 10:54:00 GMT</pubDate>
+    <author>badminton@navanbadmintonclub.com (Navan Badminton Club)</author>
+    <category>badminton</category><category>match-results</category><category>ladies</category><category>mens</category><category>mixed</category><category>cup</category><category>league</category><category>navan</category><category>meath</category>
+  </item>
+
+    </channel>
+  </rss>
