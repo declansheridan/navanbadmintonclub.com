@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Navan Badminton Club</title>
+      <link>https://navanbadmintonclub.com/news</link>
+      <description>Welcome to Navan Badminton Club located at Claremont Stadium in Navan, Co. Meath, Ireland. Club nights every Monday and Wednesday during the season which runs from September to April. Club caters for Adults and Juveniles of all standards from beginner to advanced.</description>
+      <language>en-ie</language>
+      <managingEditor>badminton@navanbadmintonclub.com (Navan Badminton Club)</managingEditor>
+      <webMaster>badminton@navanbadmintonclub.com (Navan Badminton Club)</webMaster>
+      <lastBuildDate>Thu, 19 Feb 2026 13:52:00 GMT</lastBuildDate>
+      <atom:link href="https://navanbadmintonclub.com/tags/ddlc/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://navanbadmintonclub.com/news/2026-02-19-thursday-club-night-division-3-ladies-navan-v-ucd</guid>
+    <title>Thursday Club Night: Division 3 Ladies — Navan v UCD</title>
+    <link>https://navanbadmintonclub.com/news/2026-02-19-thursday-club-night-division-3-ladies-navan-v-ucd</link>
+    <description>Tonight at 9pm in Claremont: Division 3 Ladies take on UCD at Thursday Club Night. Two courts available—turn up and play.</description>
+    <pubDate>Thu, 19 Feb 2026 13:52:00 GMT</pubDate>
+    <author>badminton@navanbadmintonclub.com (Navan Badminton Club)</author>
+    <category>ClubNight</category><category>Badminton</category><category>Navan</category><category>Meath</category><category>DDLC</category>
+  </item>
+
+    </channel>
+  </rss>
