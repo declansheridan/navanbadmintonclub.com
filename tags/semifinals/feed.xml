@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Navan Badminton Club</title>
+      <link>https://navanbadmintonclub.com/news</link>
+      <description>Welcome to Navan Badminton Club located at Claremont Stadium in Navan, Co. Meath, Ireland. Club nights every Monday and Wednesday during the season which runs from September to April. Club caters for Adults and Juveniles of all standards from beginner to advanced.</description>
+      <language>en-ie</language>
+      <managingEditor>badminton@navanbadmintonclub.com (Navan Badminton Club)</managingEditor>
+      <webMaster>badminton@navanbadmintonclub.com (Navan Badminton Club)</webMaster>
+      <lastBuildDate>Sat, 28 Feb 2026 16:01:00 GMT</lastBuildDate>
+      <atom:link href="https://navanbadmintonclub.com/tags/semifinals/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://navanbadmintonclub.com/news/2026-02-28-weekly-badminton-round-up-cup-semi-final-playoffs-club-notice</guid>
+    <title>Weekly Badminton Round-Up: Cup Semi-Final Secured &amp; Big League Matches Ahead</title>
+    <link>https://navanbadmintonclub.com/news/2026-02-28-weekly-badminton-round-up-cup-semi-final-playoffs-club-notice</link>
+    <description>A busy week of badminton with hard-fought draws, a Cup win on points for our Grade 6 Mens to reach the Semi-Final, and key league fixtures coming up. Note: No club night on Wednesday 4th March—adult club nights are Monday 2nd and Thursday 5th.</description>
+    <pubDate>Sat, 28 Feb 2026 16:01:00 GMT</pubDate>
+    <author>badminton@navanbadmintonclub.com (Navan Badminton Club)</author>
+    <category>badminton</category><category>matchday</category><category>league</category><category>cup</category><category>playoffs</category><category>semifinals</category><category>navan</category>
+  </item>
+
+    </channel>
+  </rss>
