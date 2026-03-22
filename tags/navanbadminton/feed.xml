@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Navan Badminton Club</title>
+      <link>https://navanbadmintonclub.com/news</link>
+      <description>Welcome to Navan Badminton Club located at Claremont Stadium in Navan, Co. Meath, Ireland. Club nights every Monday and Wednesday during the season which runs from September to April. Club caters for Adults and Juveniles of all standards from beginner to advanced.</description>
+      <language>en-ie</language>
+      <managingEditor>badminton@navanbadmintonclub.com (Navan Badminton Club)</managingEditor>
+      <webMaster>badminton@navanbadmintonclub.com (Navan Badminton Club)</webMaster>
+      <lastBuildDate>Thu, 12 Mar 2026 22:07:00 GMT</lastBuildDate>
+      <atom:link href="https://navanbadmintonclub.com/tags/navanbadminton/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://navanbadmintonclub.com/news/2026-03-12-thursday-club-night-claremont-navan-loughegar-ardee-social-badminton</guid>
+    <title>Thursday Club Night at Claremont: Navan vs Loughegar &amp; Navan vs Ardee + Social Badminton</title>
+    <link>https://navanbadmintonclub.com/news/2026-03-12-thursday-club-night-claremont-navan-loughegar-ardee-social-badminton</link>
+    <description>Thursday Club Night is on at Claremont with Grade 4 Mens (Navan vs Loughegar) and Grade 7 Ladies (Navan vs Ardee), followed by two courts of social badminton from 9:30pm.</description>
+    <pubDate>Thu, 12 Mar 2026 22:07:00 GMT</pubDate>
+    <author>badminton@navanbadmintonclub.com (Navan Badminton Club)</author>
+    <category>ThursdayClubNight</category><category>Badminton</category><category>NavanBadminton</category><category>ClubNight</category><category>SocialBadminton</category><category>Claremont</category>
+  </item>
+
+    </channel>
+  </rss>

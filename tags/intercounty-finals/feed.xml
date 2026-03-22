@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Navan Badminton Club</title>
+      <link>https://navanbadmintonclub.com/news</link>
+      <description>Welcome to Navan Badminton Club located at Claremont Stadium in Navan, Co. Meath, Ireland. Club nights every Monday and Wednesday during the season which runs from September to April. Club caters for Adults and Juveniles of all standards from beginner to advanced.</description>
+      <language>en-ie</language>
+      <managingEditor>badminton@navanbadmintonclub.com (Navan Badminton Club)</managingEditor>
+      <webMaster>badminton@navanbadmintonclub.com (Navan Badminton Club)</webMaster>
+      <lastBuildDate>Fri, 20 Mar 2026 22:40:00 GMT</lastBuildDate>
+      <atom:link href="https://navanbadmintonclub.com/tags/intercounty-finals/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://navanbadmintonclub.com/news/2026-03-20-meath-badminton-leinster-cac-intercounty-finals-22nd-march</guid>
+    <title>Meath Badminton: Leinster CAC Intercounty Finals – 22nd March</title>
+    <link>https://navanbadmintonclub.com/news/2026-03-20-meath-badminton-leinster-cac-intercounty-finals-22nd-march</link>
+    <description>This Sunday (22nd March), Meath competes in the Leinster CAC Intercounty Finals in Baldoyle and Tolka Rovers, with club members representing the county across every grade. Semi-finals start at 10am, finals at 2pm—best of luck to all teams. An Mhí Abú!</description>
+    <pubDate>Fri, 20 Mar 2026 22:40:00 GMT</pubDate>
+    <author>badminton@navanbadmintonclub.com (Navan Badminton Club)</author>
+    <category>Meath Badminton</category><category>Leinster CAC</category><category>Intercounty Finals</category><category>Badminton Ireland</category><category>Meath</category>
+  </item>
+
+    </channel>
+  </rss>
